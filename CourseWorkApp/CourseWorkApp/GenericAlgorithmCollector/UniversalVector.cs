@@ -1,4 +1,4 @@
-﻿namespace CourseWorkApp.GenericAlgorithm;
+﻿namespace CourseWorkApp.GenericAlgorithmCollector;
 
 public class UniversalVector
 {
@@ -11,7 +11,12 @@ public class UniversalVector
         throw new NotImplementedException();
     }
     
-    public double GetFitness()
+    public static UniversalVector Crossover(UniversalVector firstParent, UniversalVector secondParent)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void TryToMutate()
     {
         throw new NotImplementedException();
     }
