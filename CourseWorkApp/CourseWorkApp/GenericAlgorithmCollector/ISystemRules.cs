@@ -2,6 +2,5 @@
 
 public interface ISystemRules
 {
-    float GetModelFitness(UniversalVector vector);
-    bool CheckAlive(UniversalVector vector);
+    float GetModelFitness(DataVectorModel1 vectorModel1);
 }
