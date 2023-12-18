@@ -92,19 +92,18 @@ public class Model2 : IGeneticModel
 
     public double CalculateProfit()
     {
-        var queueMax = -100;
         return Data[Names.DoctorsCount] * -100 +
-               Data[Names.DoctorsQueue] * -1 +
                Data[Names.AttendantsCount] * -100 +
-               Data[Names.AttendantsQueue] * -1 +
                Data[Names.RegistryWorkersCount] * -100 +
-               Data[Names.RegistryQueue] * -1 +
                Data[Names.AssistantsCount] * -100 +
-               Data[Names.AssistantsQueue] * -1 +
-               _model.StatisticHelper.AverageItemTimeInSystem * -10 +
+               Data[Names.DoctorsQueue] * -10 +
+               Data[Names.AttendantsQueue] * -10 +
+               Data[Names.RegistryQueue] * -10 +
+               Data[Names.AssistantsQueue] * -10 +
+               _model.StatisticHelper.AverageItemTimeInSystem * -1 +
                _model.StatisticHelper.FailurePercent * -10000;
     }
-    
+
     public override string ToString()
     {
         return $"DoctorsCount: {Data[Names.DoctorsCount]}\n DoctorsQueue: {Data[Names.DoctorsQueue]}\n" +
@@ -113,6 +112,18 @@ public class Model2 : IGeneticModel
                $"AssistantsCount: {Data[Names.AssistantsCount]}\n AssistantsQueue: {Data[Names.AssistantsQueue]}\n" +
                $"AverageItemTimeInSystem: {_model.StatisticHelper.AverageItemTimeInSystem}\n" +
                $"FailurePercent: {_model.StatisticHelper.FailurePercent}\n" +
-               $"Fitness: {CalculateProfit()}";
+               $"Fitness: {CalculateProfit()}" +
+               $"\n\n" +
+               $"{Data[Names.DoctorsCount]} {Data[Names.AttendantsCount]} {Data[Names.RegistryWorkersCount]} {Data[Names.AssistantsCount]}" + "\n" +
+               $"{Data[Names.DoctorsQueue]} {Data[Names.AttendantsQueue]} {Data[Names.RegistryQueue]} {Data[Names.AssistantsQueue]} " + "\n" +
+               $"{_model.StatisticHelper.AverageItemTimeInSystem} {_model.StatisticHelper.FailurePercent}";
+    }
+
+    public void ParametersLineOutput()
+    {
+        Console.WriteLine(
+            $"DC:{Data[Names.DoctorsCount]} AtC:{Data[Names.AttendantsCount]} RC:{Data[Names.RegistryWorkersCount]} AsC:{Data[Names.AssistantsCount]} " +
+            $"DQ:{Data[Names.DoctorsQueue]} AtQ:{Data[Names.AttendantsQueue]} RQ:{Data[Names.RegistryQueue]} AsQ:{Data[Names.AssistantsQueue]} " +
+            $"T:{_model.StatisticHelper.AverageItemTimeInSystem} F:{_model.StatisticHelper.FailurePercent} ");
     }
 }

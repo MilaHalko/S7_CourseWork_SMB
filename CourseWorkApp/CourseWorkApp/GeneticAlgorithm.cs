@@ -6,10 +6,11 @@ namespace CourseWorkApp;
 
 class GeneticAlgorithm<T> where T : class, IGeneticModel
 {
-    private const int PopulationSize = 300;
-    private const int MaxGenerations = 50;
-    private const double CrossoverProbability = 0.7;
-    private const double MutationProbability = 0.3;
+    private const int PopulationSize = 500;
+    private const int MaxGenerations = 150;
+    private const double CrossoverProbability = 0.5;
+    private const double MutationProbability = 0.4;
+    private const int RunsCount = 60;
 
     private readonly IGeneticModelFactory<T> _geneticModelFactory;
     private readonly ICrossoverLogic<T> _crossoverLogic;
@@ -25,11 +26,12 @@ class GeneticAlgorithm<T> where T : class, IGeneticModel
         var population = InitializePopulation();
         Individual<T> bestIndividual = null;
 
-        for (int generation = 0; generation < MaxGenerations; generation++)
+        for (var generation = 0; generation < MaxGenerations; generation++)
         {
             EvaluatePopulation(population);
             var currentBest = population.OrderByDescending(i => i.Fitness).First();
-            Console.WriteLine($"Generation {generation}: Best Fitness = {currentBest.Fitness}");
+            Console.Write($"Generation {generation}: Best Fitness = {currentBest.Fitness} Parameters: ");
+            currentBest.GeneticModel.ParametersLineOutput();
 
             if (bestIndividual == null || currentBest.Fitness > bestIndividual.Fitness) bestIndividual = currentBest;
 
@@ -60,8 +62,13 @@ class GeneticAlgorithm<T> where T : class, IGeneticModel
     {
         foreach (var individual in population)
         {
-            individual.GeneticModel.Simulate();
-            individual.Fitness = individual.GeneticModel.CalculateProfit();
+            var allRunsFitness = 0.0;
+            for (var i = 0; i < RunsCount; i++)
+            {
+                individual.GeneticModel.Simulate();
+                allRunsFitness += individual.GeneticModel.CalculateProfit();
+            }
+            individual.Fitness = allRunsFitness / RunsCount;
         }
     }
 

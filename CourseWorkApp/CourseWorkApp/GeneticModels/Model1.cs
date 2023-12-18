@@ -65,9 +65,9 @@ public class Model1 : IGeneticModel
 
     public double CalculateProfit()
     {
-        return (Data[Names.SubProcessCount1] + Data[Names.SubProcessCount2] + Data[Names.SubProcessCount3]) * -1 +
-               (Data[Names.MaxQueue1] + Data[Names.MaxQueue2] + Data[Names.MaxQueue3]) * -100 +
-               _model.StatisticHelper.FailurePercent * -1000;
+        return Data[Names.SubProcessCount1] * -1 + Data[Names.SubProcessCount2] * -1 + Data[Names.SubProcessCount3] * -1 +
+               (Data[Names.MaxQueue1] + Data[Names.MaxQueue2] + Data[Names.MaxQueue3]) * -1 +
+               _model.StatisticHelper.FailurePercent * -1;
         
         return Data[Names.SubProcessCount1] * -8 +
                Data[Names.MaxQueue1] * -100 +
@@ -77,7 +77,7 @@ public class Model1 : IGeneticModel
                Data[Names.MaxQueue3] * -100 +
                _model.StatisticHelper.FailurePercent * -1000;
     }
-    
+
     public bool DataIsValid(Dictionary<Names, int> data)
     {
         for (var i = 0; i < data.Count; i++)
@@ -88,7 +88,7 @@ public class Model1 : IGeneticModel
 
         return true;
     }
-    
+
     public override string ToString()
     {
         return $"SubProcessCount1: {Data[Names.SubProcessCount1]}\n MaxQueue1: {Data[Names.MaxQueue1]}\n" +
@@ -96,5 +96,12 @@ public class Model1 : IGeneticModel
                $"SubProcessCount3: {Data[Names.SubProcessCount3]}\n MaxQueue3: {Data[Names.MaxQueue3]}\n" +
                $"FailurePercent: {_model.StatisticHelper.FailurePercent}\n" +
                $"Fitness: {CalculateProfit()}";
+    }
+
+    public void ParametersLineOutput()
+    {
+        Console.WriteLine($"SubProcessCount1: {Data[Names.SubProcessCount1]} MaxQueue1: {Data[Names.MaxQueue1]} " +
+                          $"SubProcessCount2: {Data[Names.SubProcessCount2]} MaxQueue2: {Data[Names.MaxQueue2]} " +
+                          $"SubProcessCount3: {Data[Names.SubProcessCount3]} MaxQueue3: {Data[Names.MaxQueue3]}");
     }
 }

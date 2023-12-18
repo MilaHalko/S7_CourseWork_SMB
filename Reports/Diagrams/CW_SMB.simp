@@ -1,0 +1,2013 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.00" multi-file="no" uid="simp5d533a11320c444090ef3ad8068f1a7c" creation-date="12/16/2023 21:38:56">
+  <meta>
+    <name>(Project)</name>
+    <authors>milagalko milagalko</authors>
+    <description />
+  </meta>
+  <counters models="2">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-56aa0eec27b74f37a88b961bfd5d4396" name="" task-id-sequence="0">
+    <working-schedule uid="ws-5db7d577f11247198f2bdaaef85ec7c1" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>milagalko</first-name>
+        <last-name>milagalko</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-008418e5876a4fe7b3386e336c90015d" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>milagalko</first-name>
+        <last-name>milagalko</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-4aa3ccc4b50e4af689de2ea438cd8d5b" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Individual&lt;T&gt;" name="Individual&lt;T&gt;" />
+        <type id="ClientType" name="ClientType" />
+        <type id="Item" name="Item" />
+        <type id="CSharp.bool" tid="boolean" name="bool" />
+        <type id="CSharp.int" tid="s-integer32" name="int" />
+        <type id="IGeneticModelFactory&lt;T&gt;" name="IGeneticModelFactory&lt;T&gt;" />
+        <type id="Class:223762fd705242aaa6e059109399c971" name="DoctorProcess" class-ref="223762fd705242aaa6e059109399c971" />
+        <type id="T" name="T" />
+        <type id="CSharp.Dictionary_Names_CSharp.int" name="Dictionary&lt;Names, int&gt;" template="{{Name}}&lt;{{?}},{{?}}&gt;" base-ref="CSharp.Dictionary">
+          <template-parameter ref="Names" />
+          <template-parameter ref="CSharp.int" />
+        </type>
+        <type id="ICrossoverLogic&lt;T&gt;" name="ICrossoverLogic&lt;T&gt;" />
+        <type id="CSharp.double" tid="s-real64" name="double" />
+        <type id="Class:afc38044061c4d399a3c16cc5a5bbceb" name="Model2" class-ref="afc38044061c4d399a3c16cc5a5bbceb" />
+        <type id="Element" name="Element" />
+        <type id="CSharp.List_Individual&lt;T&gt;" tid="array" name="List&lt;Individual&lt;T&gt;&gt;" template="{{Name}}&lt;{{?}}&gt;" base-ref="CSharp.List">
+          <template-parameter ref="Individual&lt;T&gt;" />
+        </type>
+        <type id="CSharp.string" tid="string" name="string" nullable="true" />
+        <type id="Model" name="Model" />
+        <type id="Class:e4bc33e1b8624523b83ee6c32bb69ca5" name="Model1" class-ref="e4bc33e1b8624523b83ee6c32bb69ca5" />
+        <type id="Process" name="Process" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>milagalko milagalko</author>
+        </authors>
+        <description />
+        <creation-date>12/16/2023 21:38:57</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="b96fbb104b194713acaf0f478af7f343" cid="PKG001" type="package" creator="" creation-date="12/16/2023 21:39:32" visibility="undefined">
+          <tagged-values>
+            <tagged-value id="tv0d5334cbb87e4ff48c28570dc786e322" name="namespace" type="text" multiple="false" hidden="false" value="" />
+            <tagged-value id="tv61ee4e280c9e4b219841f443037cb858" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+        </item>
+      </abstract-items>
+      <sub-models>
+        <model id="pa58c83824d5a452b9f40e8029a4304b4_137415217" name="" namespace="" order-index="2">
+          <meta>
+            <authors>
+              <author>milagalko milagalko</author>
+            </authors>
+            <description />
+            <creation-date>12/16/2023 21:39:32</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <tagged-values>
+            <tagged-value id="tv9978522996914633911fe031bdfe4682" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+          <abstract-items>
+            <item id="b0a11d5451c0419b96b5b69df257cbe2" cid="PROP007" type="property" name="_model" owner="afc38044061c4d399a3c16cc5a5bbceb" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvb02d3c9bb18647e48f39c311a6f1f76b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="_model" />
+                <tagged-value id="tv7b76c766e3dd4784be4c67384ef707d9" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv74ab2c4694344e1081af03ef63d2d24e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                <tagged-value id="tv813541f7a7624216b5dc227f3e993471" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv19e07d3130ef449eb14155cae4840eb7" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="550" />
+                <tagged-value id="tv7e3a1f587212415389b7f3338ce568b5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="21" />
+                <tagged-value id="tv0f92186b4d9b4d0f85501a73dcb0e7ea" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="5162" />
+                <tagged-value id="tv4059d74d98244c0abd76691d10a9a81d" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <structural-feature type="Model" type-id="Model" />
+            </item>
+            <item id="84efb75829284dfa9b0d200ecbb9756e" cid="PROP009" type="property" name="Data" owner="afc38044061c4d399a3c16cc5a5bbceb" creation-date="12/16/2023 21:39:32" visibility="public">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv3aaebbc3c0aa4dbfb5ab87fd0c5901f7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Data" />
+                <tagged-value id="tv27db0e38456e47068e20da1f5658fd9a" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv92f4515bfa1046e9b9975fd334ba9ba1" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                <tagged-value id="tvb710e3e8427a4438b07b67e8e92b6796" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvc67f113989914a139ca60960e7bcac42" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="612" />
+                <tagged-value id="tv3214f6675e9b4f288764b5770be22642" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="43" />
+                <tagged-value id="tv0a4849b5eb7d4f3e84c68c5d32ff7f0b" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="5162" />
+                <tagged-value id="tvf87b56be0e574bfd9b489575d6a7ddd2" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="84efb75829284dfa9b0d200ecbb9756e_property_c" type="property" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <structural-feature type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" />
+            </item>
+            <item id="897153b94f0144e49c69f529b1e982b7" cid="PROP006" type="property" name="_crossoverLogic" owner="5176c384e7e243f2b27de52943b587b3" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv27a1f2f9719b4f83bb3fb6388e3ccd3f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="_crossoverLogic" />
+                <tagged-value id="tva97d2e233c3743288d454cb8705355fd" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv58c8fddeee0a4bf1b3e6c6c08e70828d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                <tagged-value id="tv0a10a2b4550c4aeba9ac58a7dd39c887" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv58bbed1035f54ff4bfd5ddcea3ef8d90" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="460" />
+                <tagged-value id="tv5d662c27bbea4abb9501852c81f2255c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="52" />
+                <tagged-value id="tvb1ff5d0a5ee242ebb53dc707afc3a8ba" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4035" />
+                <tagged-value id="tv7be4f4cc439b45afac9cedd8c6a57702" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <structural-feature read-only="true" type="ICrossoverLogic&lt;T&gt;" type-id="ICrossoverLogic&lt;T&gt;" />
+            </item>
+            <item id="fd7cc5d45b4c4a36917e225157fcee5c" cid="C007" type="class" name="Model1Factory" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv024703a3c5d6487eb91d521d38cac5da" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv42d8e10d00e243cc9ed420e03e2d82d5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model1Factory" />
+                <tagged-value id="tvf3109fb8ff764bffbbb31e61a1574cd0" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvcb67a8bf9dd44a14a79ee82846e3dc0a" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Fabrics\Model1Factory.cs" />
+                <tagged-value id="tvbd2d447acc7e4c6ea47e8b4a08e7da4c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvcf188ac257a041a98b181d5f64b4c5d2" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="74" />
+                <tagged-value id="tvb2c9fba9d6fe4e9a95ad18f33e148e20" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="662" />
+                <tagged-value id="tv9e4c31e0040a4cf49b916ecfcd939f1a" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="739" />
+                <tagged-value id="tv7f1fe3d7e21440ca8cf26c2315d9ce69" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <operations>
+                <operation id="ob002cb0bc5e44543886dbfe6c53e2863487" cid="OP021" name="CreateRandomModel" creation-date="12/16/2023 21:39:32" type="Model1" type-id="Class:e4bc33e1b8624523b83ee6c32bb69ca5" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvf4a78a2f62f64193b88a3b06b1ee8f30" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateRandomModel" />
+                    <tagged-value id="tv1fb9e3772c3d4a8990940799f08ad2a0" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Fabrics\Model1Factory.cs" />
+                    <tagged-value id="tv9c1f47c60749422ba656d1315daf3a53" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv7892517b38ca4fbe9b4e009d1e44495c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="140" />
+                    <tagged-value id="tv1d7d3e30dad646d8bf976c3e4270b70a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="593" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var data = new Dictionary&lt;Model1.Names, int&gt;
+        {
+            { Model1.Names.SubProcessCount1, Random.Shared.Next(1, 30) },
+            { Model1.Names.MaxQueue1, Random.Shared.Next(0, 30) },
+            { Model1.Names.SubProcessCount2, Random.Shared.Next(1, 30) },
+            { Model1.Names.MaxQueue2, Random.Shared.Next(0, 30) },
+            { Model1.Names.SubProcessCount3, Random.Shared.Next(1, 30) },
+            { Model1.Names.MaxQueue3, Random.Shared.Next(0, 30) },
+        };
+        return new Model1(data, 1000);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="ab62f7f4357548adb4053ee5079f1f89" cid="PROP002" type="property" name="MaxGenerations" owner="5176c384e7e243f2b27de52943b587b3" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvfeeac355570e4c9fbf0b65be2a8730ad" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MaxGenerations" />
+                <tagged-value id="tv2d480813117c45f6ba096cf96b5f51d1" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv2a23b31007594a9b9d592c30047bc391" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                <tagged-value id="tvc5855ac1b8574acf9a65dd42c2314511" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvd77891e9a5474b56bbbbe28c382cb5bd" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="239" />
+                <tagged-value id="tv697b401e5f5645ddbe4d3a1a13298bfe" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="38" />
+                <tagged-value id="tv9c2676d6bf81407699a2fb4a4dfefbfc" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4035" />
+                <tagged-value id="tv1328bd87c7a84370a6b5f2c306b72c5c" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <structural-feature type="int" type-id="CSharp.int" />
+              <property default-value="50" />
+            </item>
+            <item id="708382ca97c94771b72ebd6030990860" cid="CNT001" type="containment" creation-date="12/16/2023 21:39:32" from="a73a08c6cd6346f19fd629d60230dc3a" to="afc38044061c4d399a3c16cc5a5bbceb">
+              <tagged-values>
+                <tagged-value id="tv1e7ef5665e184dd5bdfbe49c26e3bb2d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="fa95a04b77a24ea78d66622ed228b10e" cid="PROP019" type="property" name="Data" owner="e4bc33e1b8624523b83ee6c32bb69ca5" creation-date="12/16/2023 21:39:32" visibility="public">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv2576190ec13440b385de42ab96d343c9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Data" />
+                <tagged-value id="tv66346f22ee9b4ee092ba31c5a3b392af" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tve5e4b0824f5c47759cd5bef9f69a6274" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                <tagged-value id="tvb37064d0961347d68751a1063df6f58e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv0dea76fe1caf4c9e8de10a77537278e5" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="417" />
+                <tagged-value id="tve82403c2a4c344d781db2044dbcf2ea4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="42" />
+                <tagged-value id="tvb4bf82c818f14991bb80a7dc348cec3c" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="3798" />
+                <tagged-value id="tve69bf3d6daf149e7ba0568fa94cce8c5" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="fa95a04b77a24ea78d66622ed228b10e_property_c" type="property" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <structural-feature type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" />
+            </item>
+            <item id="afc38044061c4d399a3c16cc5a5bbceb" cid="C002" type="class" name="Model2" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv2672be9351e84ab5954d5115a3121778" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv3493a5ca6c124d5caf5e183c99967eda" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model2" />
+                <tagged-value id="tv5e433a43b33b46a2ac7dfbf7cce31195" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tve668fbf9091f414db726b1ae6aeab7f5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                <tagged-value id="tv0599191bdd084e8a9b92f7eca654c088" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv0b6b7b3720b34f668c1fd5935774f26d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="262" />
+                <tagged-value id="tv1d001b326e004fbc97fd8ac83fbca41d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="4893" />
+                <tagged-value id="tvbffc701573e14961ba4596f3ede1a81c" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="5162" />
+                <tagged-value id="tv26603d89c6b548da80922c2eeae9947c" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a205771d0c70f4f1b90b46133d3be6318476" cid="PROP007" name="_model" creation-date="12/16/2023 21:39:32" property-ref="b0a11d5451c0419b96b5b69df257cbe2" />
+                <attribute id="a6fa7d198db734d709e5d47d2af7b1360477" cid="PROP008" name="SimulationTime" creation-date="12/16/2023 21:39:32" property-ref="8b4299b1ab364572a9239fea785df63b" />
+                <attribute id="abb48ac351aa24cc6806cce932e0461d7477" cid="PROP009" name="Data" creation-date="12/16/2023 21:39:32" property-ref="84efb75829284dfa9b0d200ecbb9756e" />
+              </attributes>
+              <operations>
+                <operation id="oe8b7111c105548ccbcc306f62fad2c25477" cid="OP009" name="Model2" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pde44706077874d0181ec7490f9a6e6fa" name="data" type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="pe9f292d779ba4e9f905e9a8b8eb1d197" name="simulationTime" type="double" type-id="CSharp.double" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvab75ee07ee934650997f5246f08770a1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model2" />
+                    <tagged-value id="tvf336191c05024038a9b323e07ae317a7" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv8a07859f8a7f478689ebd6ce53b77639" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv2ae6f873578e4296a761ac3589158629" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="663" />
+                    <tagged-value id="tvaf8e18b5b772455ea81c3daca6af87c7" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="180" />
+                  </tagged-values>
+                </operation>
+                <operation id="o05cd3da7e1874d20a0946fafc24428bf478" cid="OP010" name="CreateModel" creation-date="12/16/2023 21:39:32" type="Model" type-id="Model" visibility="public" static="true">
+                  <parameters>
+                    <parameter id="pb1c4e99563e34f1e81e1af4d3999399f" name="data" type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv1c5d343bf36842e3b1fb16da6628e985" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateModel" />
+                    <tagged-value id="tv4bffb4e8c606488b97142798ed015cf0" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tve25847d0c97741c99a4a35054923d872" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv13d5095a1c03484eb10e1eaf5e845a0e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="851" />
+                    <tagged-value id="tvbd94cb9b3d554f2eb09b05540e569bb8" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="2050" />
+                  </tagged-values>
+                  <documentations>
+                    <doc id="12498f5d48bb4fdda3fecde1628aa2fd">
+                      <text>
+                        <default>
+                          <style font-name="Verdana" font-size="12">
+                            <text>
+                              <solid-brush color="#FF000000" />
+                            </text>
+                          </style>
+                        </default>
+                        <styles />
+                        <content>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t> Type 1
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t> |patients| -&gt; |doctors| -&gt; |attendants| -&gt; |dispose|
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t> Type 2
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t> |patients| -&gt; |doctors| -&gt; |fromHospitalToLab| -&gt; |labRegistry| -&gt; |labAssistants| -&gt; |fromLabToHospital| -&gt; |doctors| -&gt; |attendants| -&gt; |dispose|
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t> Type 3
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t> |patients| -&gt; |doctors| -&gt; |fromHospitalToLab| -&gt; |labRegistry| -&gt; |labAssistants| -&gt; |dispose|
+</t>
+                            </p>
+                          </paragraph>
+                        </content>
+                      </text>
+                    </doc>
+                  </documentations>
+                  <source-codes>
+                    <source-code language="CSharp">
+        CreateClient patients = new(new ExponentialRandomizer(15), "Patient");
+        DoctorProcess doctors = new(doctorsCount: data[Names.DoctorsCount], "Doctors", "Doctor", data[Names.DoctorsQueue]);
+        Process attendants = new(new UniformRandomizer(3, 8), data[Names.AttendantsCount], "Attendants", data[Names.AttendantsQueue], "Attendant");
+        Process fromHospitalToLab = new(new UniformRandomizer(2, 5), 25, name: "WayToLab");
+        Process labRegistry = new(new ErlangRandomizer(4.5, 3), data[Names.RegistryWorkersCount], "Registry", data[Names.RegistryQueue], "RegistryWorker");
+        LabAssistanceProcess labAssistants = new(new ErlangRandomizer(4, 2), data[Names.AssistantsCount], "Assistants", "Assistant", data[Names.AssistantsQueue]);
+        Process fromLabToHospital = new(new UniformRandomizer(2, 5), 25, name: "WayToHospital");
+
+        patients.NextElementsContainer = new NextElementContainer(doctors);
+        doctors.NextElementsContainer = new NextAfterDoctor(doctors, attendants, fromHospitalToLab);
+        fromHospitalToLab.NextElementsContainer = new NextElementContainer(labRegistry);
+        labRegistry.NextElementsContainer = new NextElementContainer(labAssistants);
+        labAssistants.NextElementsContainer = new NextElementContainer(fromLabToHospital);
+        fromLabToHospital.NextElementsContainer = new NextElementContainer(doctors);
+
+        return new Model(new List&lt;Element&gt;()
+            { patients, doctors, attendants, fromHospitalToLab, labRegistry, labAssistants, fromLabToHospital });
+
+                 
+                                                               
+        
+                 
+                                                                                                                                                              
+        
+                 
+                                                                                                          
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o1c22adecbae146859d27964ec77eba58484" cid="OP011" name="Mutate" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv2421807ecdcc4d89aa744681811fb755" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Mutate" />
+                    <tagged-value id="tv0869177ba30c404f86da7315d3005d83" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv1a27c2c5dd4c4dbfb8395f97f4876baf" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvc9c0978a8f8441238f297480f5c39ee9" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3063" />
+                    <tagged-value id="tv3715b0cca6ac42b79c9fdbe46a13b27d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="406" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        while (true)
+        {
+            var parameterIndex = Random.Shared.Next(Data.Count);
+            var adder = Random.Shared.Next(-1, 1);
+            Data[Enum.GetValues&lt;Names&gt;()[parameterIndex]] += adder;
+            if (DataIsValid(Data)) break;
+            Data[Enum.GetValues&lt;Names&gt;()[parameterIndex]] -= adder;
+        }
+
+        UpdateSMOModel();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o53d5473f419c4af2aadcf62d4abcf681484" cid="OP012" name="DataIsValid" creation-date="12/16/2023 21:39:32" type="bool" type-id="CSharp.bool" visibility="private">
+                  <parameters>
+                    <parameter id="pd3b48abc216245e794fceb09b91d21a4" name="data" type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv048108564da641a69fe4fb60703462db" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="DataIsValid" />
+                    <tagged-value id="tv770d7674b4b1449197ebf80818512c37" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv37cd82f4855b4273bda7ebf785c8249f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvb86c0142f3d2448494cfc8cf7b14793a" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3477" />
+                    <tagged-value id="tvc18136f5a20941d0935e4e41d2165e62" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="290" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        for (int i = 0; i &lt; data.Count; i++)
+        {
+            if (i % 2 == 0 &amp;&amp; data[(Names)i] &lt;= 0) return false;
+            if (i % 2 == 1 &amp;&amp; data[(Names)i] &lt; 0) return false;
+        }
+
+        return true;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o7ec1ddb3abeb4c1b8219c2b12789dd72484" cid="OP013" name="CalculateProfit" creation-date="12/16/2023 21:39:32" type="double" type-id="CSharp.double" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv05f89354fffd494e948f4abe612bee89" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CalculateProfit" />
+                    <tagged-value id="tv3f1f1288b1694ae4b89d7c1f3453e08a" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv17174f0631a04d69823de1727fab9e98" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvb4ec0442935f446da3541365abcd199f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3775" />
+                    <tagged-value id="tv68229c5b391046f39b6994a4a0dbdab5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="623" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var queueMax = -100;
+        return Data[Names.DoctorsCount] * -100 +
+               Data[Names.DoctorsQueue] * -1 +
+               Data[Names.AttendantsCount] * -100 +
+               Data[Names.AttendantsQueue] * -1 +
+               Data[Names.RegistryWorkersCount] * -100 +
+               Data[Names.RegistryQueue] * -1 +
+               Data[Names.AssistantsCount] * -100 +
+               Data[Names.AssistantsQueue] * -1 +
+               _model.StatisticHelper.AverageItemTimeInSystem * -10 +
+               _model.StatisticHelper.FailurePercent * -10000;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4e7c3212161e43cd89822f965ece8adf484" cid="OP014" name="ToString" creation-date="12/16/2023 21:39:32" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv4c38661826a148e2b4c4c4dc27593324" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ToString" />
+                    <tagged-value id="tvd63290dcd8004bc0b26b0a0bcaf8181e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv1031c02f97a54c728711783334ec2126" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv71ce45e5acb943cbb7a10c581a40939c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="4410" />
+                    <tagged-value id="tva77282ba063542eabd3bace2a6e555c5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="742" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return $"DoctorsCount: {Data[Names.DoctorsCount]}\n DoctorsQueue: {Data[Names.DoctorsQueue]}\n" +
+               $"AttendantsCount: {Data[Names.AttendantsCount]}\n AttendantsQueue: {Data[Names.AttendantsQueue]}\n" +
+               $"RegistryWorkersCount: {Data[Names.RegistryWorkersCount]}\n RegistryQueue: {Data[Names.RegistryQueue]}\n" +
+               $"AssistantsCount: {Data[Names.AssistantsCount]}\n AssistantsQueue: {Data[Names.AssistantsQueue]}\n" +
+               $"AverageItemTimeInSystem: {_model.StatisticHelper.AverageItemTimeInSystem}\n" +
+               $"FailurePercent: {_model.StatisticHelper.FailurePercent}\n" +
+               $"Fitness: {CalculateProfit()}";
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="62f0fbad28424374a0ecc7d621be409d" cid="PROP014" type="property" name="NextAttendantProcess" owner="eefab4b3e27749a89e33dc7fb74818fc" creation-date="12/16/2023 21:39:32" visibility="private">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv747c1e584d5649f086fe63ba8f8655b2" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NextAttendantProcess" />
+                <tagged-value id="tv2e32f245f40d4ab5b8e6cc121917d90c" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv058571ef97424a2e98b2076b21201ec0" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                <tagged-value id="tv132791fa8b6b4e96a6ba1aecb3398c34" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv5c7b1b6fa5f94591b49268ce88da5b21" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1142" />
+                <tagged-value id="tv4edf7b26b21447a79ac1dbbd2325ea50" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="45" />
+                <tagged-value id="tvc058c9e1985f4509aecfe4074b2787ed" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1750" />
+                <tagged-value id="tv36ccbf946b8c4d0ea1417b36adcdb63d" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="62f0fbad28424374a0ecc7d621be409d_property_c" type="property" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <structural-feature type="Process" type-id="Process" />
+            </item>
+            <item id="11830748e08242f4850ca3dd46478e6d" cid="ELEM001" type="template-parameter" name="T" creation-date="12/16/2023 21:39:32">
+              <template-parameter default-value="" kind="IGeneticModel" />
+            </item>
+            <item id="bcabf31ac45849cc8ebc46b0d63eb3e7" cid="ELEM004" type="template-parameter" name="T" creation-date="12/16/2023 21:39:32">
+              <template-parameter kind="IGeneticModel" />
+            </item>
+            <item id="652d4a7558b6442ab92bb7b4758ea245" cid="PROP001" type="property" name="PopulationSize" owner="5176c384e7e243f2b27de52943b587b3" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv1f96b6cc3ef042cdbc5d42799ab94840" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="PopulationSize" />
+                <tagged-value id="tv6fcab0c44f6d4cb28100011c63537cce" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv0f8757d449b547eba07e07ab01cac3a0" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                <tagged-value id="tv574ac8f86b6b48188d0063f93b745a67" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvee9cf5e2140f4f769502d779109bed57" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="194" />
+                <tagged-value id="tv8d235ef028f14daa887e48a2d65cdb96" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="39" />
+                <tagged-value id="tv08b5a3e33c5341738fe0e98e3a4d13a9" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4035" />
+                <tagged-value id="tv677081f830494538bf76b8be46ed3e58" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <structural-feature type="int" type-id="CSharp.int" />
+              <property default-value="300" />
+            </item>
+            <item id="09619f9857404e9596941258e0b740fe" cid="REL001" type="relationship" creation-date="12/16/2023 21:39:32" from="4a81b8c8253d4b74a6a0211057c0c080" to="e4bc33e1b8624523b83ee6c32bb69ca5" visibility="package">
+              <tagged-values>
+                <tagged-value id="tv1a0001fb66a94b16a678065f9bbe1867" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <relation from="4a81b8c8253d4b74a6a0211057c0c080" to="e4bc33e1b8624523b83ee6c32bb69ca5" derived="false">
+                <start-role id="umlar-96aae820-98f1-4a85-83d0-e376f3e09a84" name="" navigability="" association-type="aggregation" visibility="private" />
+                <end-role id="umlar-59ca9401-f720-48fc-b228-845f42c6884f" name="" navigability="" association-type="association" visibility="private" />
+              </relation>
+            </item>
+            <item id="d8fcf0f01b344f8795255eda06111268" cid="ELEM002" type="template-parameter" name="T" creation-date="12/16/2023 21:39:32">
+              <template-parameter kind="IGeneticModel" />
+            </item>
+            <item id="f559f6bab0234be486e02b03c4ac76e6" cid="PROP005" type="property" name="_geneticModelFactory" owner="5176c384e7e243f2b27de52943b587b3" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tva34b465681444088ab5b57f6ad376b06" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="_geneticModelFactory" />
+                <tagged-value id="tv5e4679d3cc9a44359a0edc13cf82b139" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvc618eca66d5049e187c89239b518c15e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                <tagged-value id="tv68b347ed6e4a4bcca2a5cf1104ee289e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvb64b1cbe3552493c86a74e6cdfd25c46" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="392" />
+                <tagged-value id="tv8acea242e64343e8aacbdea96ee6fd4b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="62" />
+                <tagged-value id="tv3938fbf6776744f08a7938d357e509a1" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4035" />
+                <tagged-value id="tv423d4bb9836747df8ff4a7519c1dc17e" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <structural-feature read-only="true" type="IGeneticModelFactory&lt;T&gt;" type-id="IGeneticModelFactory&lt;T&gt;" />
+            </item>
+            <item id="8b4299b1ab364572a9239fea785df63b" cid="PROP008" type="property" name="SimulationTime" owner="afc38044061c4d399a3c16cc5a5bbceb" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvce27d361eaee4ef78394d5f7a24fbebc" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="SimulationTime" />
+                <tagged-value id="tv0c0c0fd14bd34916ad0bc5f6cdcff7f8" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv55fbb7f411a04809bf1884860f05d040" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                <tagged-value id="tva02de7e35b0841a58957f70975c777b0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvf976a3945cb34c96a15c0116a49da5d0" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="577" />
+                <tagged-value id="tvc6330e2193674da1a819ed301980afe1" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="29" />
+                <tagged-value id="tv9132535fa2fb49b7b90b7f090b83aef5" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="5162" />
+                <tagged-value id="tv491fbef3859648b5aa6e93e2acad1c87" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <structural-feature type="double" type-id="CSharp.double" />
+            </item>
+            <item id="f6f390a7c37549f89c8c76d4ec1875b5" cid="ELEM007" type="template-binding" creation-date="12/16/2023 21:39:32" from="0da1e607b5074e0496be8d414e9f929f" to="e97c9ad5016a46ceba97437abfaeab18">
+              <stereotypes>
+                <stereotype name="bind" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvbde320bde40349cdb0cb72cc1e17a31c" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="f6f390a7c37549f89c8c76d4ec1875b5_bind_c" type="bind" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <template-binding>
+                <substitution formal="bcabf31ac45849cc8ebc46b0d63eb3e7" actual="afc38044061c4d399a3c16cc5a5bbceb" />
+              </template-binding>
+            </item>
+            <item id="23e716a798f54ac183a25cdddbbe8d4d" cid="I001" type="uml-interface-classifier" name="ICrossoverLogic" creation-date="12/16/2023 21:39:32" visibility="public">
+              <stereotypes>
+                <stereotype name="interface" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tveef6c2e1d3c746799c3dbb7ccc8c14f0" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvf0b7e170892b4da7a4f47138281f6c3e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ICrossoverLogic" />
+                <tagged-value id="tvf5647b06cf7d45f7ba8363c44f7f627d" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv6808e891bfb94b10abaee5bd15a95119" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Crossovers\ICrossoverLogic.cs" />
+                <tagged-value id="tv5143ec29edfa46c2a7ee1c895063dfff" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvf612d912fd5d4cbba79518b20a033f86" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="77" />
+                <tagged-value id="tv37687be3e3b24b6d9ac8f83b0cbc9212" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="105" />
+                <tagged-value id="tvdcfa6eb12f4b4456ad5a3c92d3abc9ab" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="185" />
+                <tagged-value id="tv4a4d8e3edf5a4de9b0a496f7435f9eb6" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="23e716a798f54ac183a25cdddbbe8d4d_interface_c" type="interface" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <template-parameters>
+                <template-parameter id="t673b1a9db6a84b0298fcba0f519bb4c4486" name="T" kind="" default-value="" ref="35ac629cd94743c3a1572ade561d5115" creation-date="12/16/2023 21:39:32" />
+              </template-parameters>
+              <operations>
+                <operation id="o49a5a629c5cc48d196cea534d68367c8486" cid="OP017" name="Crossover" creation-date="12/16/2023 21:39:32" type="T" type-id="T" visibility="undefined">
+                  <parameters>
+                    <parameter id="p736583c0424e4949885a91e10171c355" name="parent1" type="T" type-id="T" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="p2f782c45d68e4a109fe141d2779f9b78" name="parent2" type="T" type-id="T" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tvfb4e61ef9f00492ba21ea25e7a7bc43a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Crossover" />
+                    <tagged-value id="tv5da5b12a8bc342358708d2b298c187a7" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Crossovers\ICrossoverLogic.cs" />
+                    <tagged-value id="tv1ddf664b2cb9407797c725e63fa2bade" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tva2cb43daa9a949709a51cb884fa6e31b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="145" />
+                    <tagged-value id="tva536a3452f3240bd9d2e3850cbcb9fbe" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="34" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="e97c9ad5016a46ceba97437abfaeab18" cid="I002" type="uml-interface-classifier" name="IGeneticModelFactory" creation-date="12/16/2023 21:39:32" visibility="public">
+              <stereotypes>
+                <stereotype name="interface" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvc3bc1e9c38ee43ddb859b4dc0e8918fd" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv6b0e8dea7f264cd28ed3890520a40226" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="IGeneticModelFactory" />
+                <tagged-value id="tv0e83990c2b424619a637642bac58d63d" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tva80802a497084cdf8c72888bfdb1f6ea" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Fabrics\IGeneticModelFactory.cs" />
+                <tagged-value id="tv7730beba27a94d51930d0bb52100b6d0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv29418954484240419d96f20346426849" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="74" />
+                <tagged-value id="tv553b7d786d254de1bf4ab68774bf1dbd" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="97" />
+                <tagged-value id="tv31f72bae173741bd9a70fda5c3bf6d99" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="174" />
+                <tagged-value id="tv835ec01ac28a40259108fd5087e13d62" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="e97c9ad5016a46ceba97437abfaeab18_interface_c" type="interface" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <template-parameters>
+                <template-parameter id="t83fd3e261c3d4eaebacad2bee4fc4cf2487" name="T" kind="" default-value="" ref="bcabf31ac45849cc8ebc46b0d63eb3e7" creation-date="12/16/2023 21:39:32" />
+              </template-parameters>
+              <operations>
+                <operation id="o357e56ae82c146f2b4a7d344499731f0487" cid="OP018" name="CreateRandomModel" creation-date="12/16/2023 21:39:32" type="T" type-id="T" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv14823f79d10544e2bef7c012465584b9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateRandomModel" />
+                    <tagged-value id="tv276c95ca351c48dfa2beb9dd1b6fc1a7" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Fabrics\IGeneticModelFactory.cs" />
+                    <tagged-value id="tve5fe69867f164ebab99c196a375ee0b0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tve19621392fdc4474ac0ab8f1fc02eba3" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="146" />
+                    <tagged-value id="tv507702be46074d1c976c102da7efc5b4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="22" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="5176c384e7e243f2b27de52943b587b3" cid="C001" type="class" name="GeneticAlgorithm" creation-date="12/16/2023 21:39:32" visibility="undefined">
+              <tagged-values>
+                <tagged-value id="tv57002f5f74dd4d46aaac27e71e017984" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv93bd06d70dd241239e675a9aaa0fff26" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GeneticAlgorithm" />
+                <tagged-value id="tv1ed36d428b7f48d886e83cc95d335154" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv48d8ef2b9888438e81dc76f7005227ba" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                <tagged-value id="tv8a5d836464db43b79d1fa5f66b8d7f41" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv5d793c95e782421d8f042300f87eb2c5" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="129" />
+                <tagged-value id="tv375c7562f01147d0be23d1d67a78d2b4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="3903" />
+                <tagged-value id="tvbce2351aabbd4fc7827d1420c7f0b570" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4035" />
+                <tagged-value id="tv2e547d61e18c420892b5fe98a18ee5be" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a9efaf02f52654616b9f50dba44436db4457" cid="PROP001" name="PopulationSize" creation-date="12/16/2023 21:39:32" property-ref="652d4a7558b6442ab92bb7b4758ea245" />
+                <attribute id="aeeff949f649040c4b7657e4cbdd0eeac458" cid="PROP002" name="MaxGenerations" creation-date="12/16/2023 21:39:32" property-ref="ab62f7f4357548adb4053ee5079f1f89" />
+                <attribute id="a4faf52dfda444ce2bbfd95e1bea380b0459" cid="PROP003" name="CrossoverProbability" creation-date="12/16/2023 21:39:32" property-ref="5211d27012bc4d1cb7130caf0c627930" />
+                <attribute id="a7755ff08a0614222aa1dba78ad3517e0459" cid="PROP004" name="MutationProbability" creation-date="12/16/2023 21:39:32" property-ref="2f9837e32e15406abfaf1bce7e74fcc8" />
+                <attribute id="a0b5441371556424e9653aaf4bac43218460" cid="PROP005" name="_geneticModelFactory" creation-date="12/16/2023 21:39:32" property-ref="f559f6bab0234be486e02b03c4ac76e6" />
+                <attribute id="a501eb5a0d5d4420aa62785f9645982a6462" cid="PROP006" name="_crossoverLogic" creation-date="12/16/2023 21:39:32" property-ref="897153b94f0144e49c69f529b1e982b7" />
+              </attributes>
+              <template-parameters>
+                <template-parameter id="tc7fb3f508d4c47c6bbd97406d71fd301449" name="T" kind="" default-value="" ref="11830748e08242f4850ca3dd46478e6d" creation-date="12/16/2023 21:39:32" />
+              </template-parameters>
+              <operations>
+                <operation id="o80a7ffd36474491ba803f19090f0da02464" cid="OP001" name="GeneticAlgorithm" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p56814e19279d4bbbbe25e36356ffd040" name="geneticModelFactory" type="IGeneticModelFactory&lt;T&gt;" type-id="IGeneticModelFactory&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="pe3b38f35e4274e0598d6e44cf9f80f7a" name="crossoverLogic" type="ICrossoverLogic&lt;T&gt;" type-id="ICrossoverLogic&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv4c9e5fa347d544c59caef1701fc465fe" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GeneticAlgorithm" />
+                    <tagged-value id="tva37d0e04fc174afdbfd94ab11d2521ed" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tv540b67185a6a4b198462647387158c2c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvbe4b249d42e446d5b2137f89d12e0e50" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="520" />
+                    <tagged-value id="tve741dd8bd99240888106fd03fa01ca6a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="213" />
+                  </tagged-values>
+                </operation>
+                <operation id="ocb0ded1c49d3435f9e3671c97a0a9348469" cid="OP002" name="Run" creation-date="12/16/2023 21:39:32" type="Individual&lt;T&gt;" type-id="Individual&lt;T&gt;" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv709e6d500c794cfcb8f76f8a21b12087" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Run" />
+                    <tagged-value id="tv94ae7f8ee0dc482eaed153fadbbd5b52" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tv5a809bad7d364b7cbf0f7b554099c7ef" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv2f1d8035e7484ee9bf1a92049470f169" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="741" />
+                    <tagged-value id="tv82091e675b5344ce9c3afb16eafb9fbc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="850" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var population = InitializePopulation();
+        Individual&lt;T&gt; bestIndividual = null;
+
+        for (int generation = 0; generation &lt; MaxGenerations; generation++)
+        {
+            EvaluatePopulation(population);
+            var currentBest = population.OrderByDescending(i =&gt; i.Fitness).First();
+            Console.WriteLine($"Generation {generation}: Best Fitness = {currentBest.Fitness}");
+
+            if (bestIndividual == null || currentBest.Fitness &gt; bestIndividual.Fitness) bestIndividual = currentBest;
+
+            var selectedParents = TournamentSelection(population);
+            population = Crossover(selectedParents);
+            Mutate(population);
+        }
+
+        Console.WriteLine($"Best Fitness: {bestIndividual.Fitness}");
+
+        return bestIndividual;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o25b459ce39e9485ab03f0170701519af470" cid="OP003" name="InitializePopulation" creation-date="12/16/2023 21:39:32" type="List&lt;Individual&lt;T&gt;&gt;" type-id="CSharp.List_Individual&lt;T&gt;" visibility="private">
+                  <tagged-values>
+                    <tagged-value id="tvb2e84d2d99124ef4832c7fed92bf940b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="InitializePopulation" />
+                    <tagged-value id="tv14abb8e0047c4e5a8075026d802e8ad6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tv70c2063e4e8747748a7231560ff2597d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv002873d1be724d948d3b7150c81b6cfb" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1599" />
+                    <tagged-value id="tv212dee4a53f143e1bcc00884404fbc1b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="349" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var population = new List&lt;Individual&lt;T&gt;&gt;();
+
+        for (var i = 0; i &lt; PopulationSize; i++)
+        {
+            Individual&lt;T&gt; individual = new(_geneticModelFactory.CreateRandomModel());
+            population.Add(individual);
+        }
+
+        return population;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="of99e6cfe187049da9ace815bb7120184472" cid="OP004" name="EvaluatePopulation" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="private">
+                  <parameters>
+                    <parameter id="p7ecfd8ec1ad7453aa7c693373744555a" name="population" type="List&lt;Individual&lt;T&gt;&gt;" type-id="CSharp.List_Individual&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tvfce48a25a8a34bbdb74e35df10314a05" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="EvaluatePopulation" />
+                    <tagged-value id="tv607ac41a85124515878626b907aeac2f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tv3ebcd183433440e68e24aa056bc471a9" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv011f6202a0744bef82f9513a2c391a78" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1956" />
+                    <tagged-value id="tv99dbafeb59ea4fbd8786535f1d2bef76" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="273" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        foreach (var individual in population)
+        {
+            individual.GeneticModel.Simulate();
+            individual.Fitness = individual.GeneticModel.CalculateProfit();
+        }
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o439cd8941d844d16ae6ad5ad65df79fe473" cid="OP005" name="TournamentSelection" creation-date="12/16/2023 21:39:32" type="List&lt;Individual&lt;T&gt;&gt;" type-id="CSharp.List_Individual&lt;T&gt;" visibility="private">
+                  <parameters>
+                    <parameter id="p9dfcfe251e4c4ac5a8c0c4c5a692d2e5" name="population" type="List&lt;Individual&lt;T&gt;&gt;" type-id="CSharp.List_Individual&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv340a98bd733240f1ae954ff15d5efaeb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="TournamentSelection" />
+                    <tagged-value id="tv6aad707800364f22bbe8a2944b12af7c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tvb09ac911b903424daeedf2f6eed4a77d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvd9cc6149409d4c84b4d487b84748aa38" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2237" />
+                    <tagged-value id="tv27a8d44878134b10bbc9e3e2d25256f7" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="579" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var selectedParents = new List&lt;Individual&lt;T&gt;&gt;();
+
+        for (int i = 0; i &lt; PopulationSize; i++)
+        {
+            var contestant1 = population[Random.Shared.Next(population.Count)];
+            var contestant2 = population[Random.Shared.Next(population.Count)];
+            var selectedParent = (contestant1.Fitness &gt; contestant2.Fitness) ? contestant1 : contestant2;
+            selectedParents.Add(selectedParent);
+        }
+
+        return selectedParents;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4e4ad9aca7c14fdb9f25c911ccba6765473" cid="OP006" name="Crossover" creation-date="12/16/2023 21:39:32" type="List&lt;Individual&lt;T&gt;&gt;" type-id="CSharp.List_Individual&lt;T&gt;" visibility="private">
+                  <parameters>
+                    <parameter id="pfed453a3b48745a7835c0a5bf94b753f" name="parents" type="List&lt;Individual&lt;T&gt;&gt;" type-id="CSharp.List_Individual&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv17a12434f6a84ee7aa0dfc4fa4350522" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Crossover" />
+                    <tagged-value id="tvd6e76a27008448a6b16381be4af2709b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tvbf62df228b094843a4bda0c5e265af7c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvfd3f6e648d8641ea94933f0f545123d8" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2824" />
+                    <tagged-value id="tv2e5aef328cc944769725a2d5fcf2c548" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="702" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var offspring = new List&lt;Individual&lt;T&gt;&gt;();
+
+        for (int i = 0; i &lt; PopulationSize; i += 2)
+        {
+            if (Random.Shared.NextDouble() &lt; CrossoverProbability)
+            {
+                var parent1 = parents[i];
+                var parent2 = parents[i + 1];
+                offspring.Add(CreateChildModel(parent1, parent2));
+                offspring.Add(CreateChildModel(parent2, parent1));
+            }
+            else
+            {
+                offspring.Add(parents[i]);
+                offspring.Add(parents[i + 1]);
+            }
+        }
+
+        return offspring;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o17e025f9b18c43a3a837f62c80391d45473" cid="OP007" name="CreateChildModel" creation-date="12/16/2023 21:39:32" type="Individual&lt;T&gt;" type-id="Individual&lt;T&gt;" visibility="private">
+                  <parameters>
+                    <parameter id="pbaf1a6ce6503449f90bcac71c6e2b57e" name="parent1" type="Individual&lt;T&gt;" type-id="Individual&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="p7bcaff8aad3f4cd5b7b786b7e36fb43e" name="parent2" type="Individual&lt;T&gt;" type-id="Individual&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv01c48b2b0cbc4c8c9e7d848bcd502200" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateChildModel" />
+                    <tagged-value id="tv44146df4cd274a8fa7a465823b350700" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tvade7bc231d644f7185e2d03aff7fd8ca" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9e0dd8b57ce043c1b4c5aefb70f86612" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3534" />
+                    <tagged-value id="tva6f4d10c814244ae8d41354aa1f287d4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="204" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return new Individual&lt;T&gt;(_crossoverLogic.Crossover(parent1.GeneticModel, parent2.GeneticModel));
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4bb31cd5e5474b75a565005d2b08aca5474" cid="OP008" name="Mutate" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="private">
+                  <parameters>
+                    <parameter id="pfc24fe3e94b645019676bd805536121d" name="population" type="List&lt;Individual&lt;T&gt;&gt;" type-id="CSharp.List_Individual&lt;T&gt;" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv30c517a8f8914d9ea079cc956073a404" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Mutate" />
+                    <tagged-value id="tvdf498e7152e740d48649f27c6155647b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                    <tagged-value id="tv88c846156b3947d4b642b412abdd153f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvc2152a3d0fbd4bcab5d863fb95a8d002" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3746" />
+                    <tagged-value id="tv0b5ee9f212da404084237a690b19d85f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="283" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        foreach (var individual in population)
+        {
+            if (Random.Shared.NextDouble() &lt; MutationProbability)
+            {
+                individual.GeneticModel.Mutate();
+            }
+        }
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="f6aeab4d4ead4eb3955c2f06949cea65" cid="PROP015" type="property" name="NextWayToLab" owner="eefab4b3e27749a89e33dc7fb74818fc" creation-date="12/16/2023 21:39:32" visibility="private">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv7d51c80733a24a77b0aebcbabae0a3b2" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NextWayToLab" />
+                <tagged-value id="tva8e79fd466184e0cad869df563737d76" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv456dbd9723dd4bb7887097467010cca3" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                <tagged-value id="tv417e1c8e803e49fbbfde0ddc2a343bba" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv0d0f4f3affa84f2194a3d06d6b1dbe8c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1193" />
+                <tagged-value id="tv74a431ee1d034e3bbdf3efd792545887" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="37" />
+                <tagged-value id="tvee0a4b902cbd43b0981a87c55b385fa2" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1750" />
+                <tagged-value id="tv778e03b74e54454e8d69607885df0bf0" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="f6aeab4d4ead4eb3955c2f06949cea65_property_c" type="property" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <structural-feature type="Process" type-id="Process" />
+            </item>
+            <item id="67d50ffec9204c20843bac99a7959a1f" cid="REL002" type="relationship" creation-date="12/16/2023 21:39:32" from="3851d40e954146df89bc7a4e02635d4d" to="afc38044061c4d399a3c16cc5a5bbceb" visibility="package">
+              <tagged-values>
+                <tagged-value id="tvd6a9e2ec84a84060bb8704b48314c40b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <relation from="3851d40e954146df89bc7a4e02635d4d" to="afc38044061c4d399a3c16cc5a5bbceb" derived="false">
+                <start-role id="umlar-49914a19-8fe4-4d3f-b36c-3b36fe29d284" name="" navigability="" association-type="aggregation" visibility="private" />
+                <end-role id="umlar-d35f141f-7038-4838-b98b-8621330be401" name="" navigability="" association-type="association" visibility="private" />
+              </relation>
+            </item>
+            <item id="06af5e0d66204768baa3620bbed5d6d2" cid="REA001" type="realization" creation-date="12/16/2023 21:39:32" from="afc38044061c4d399a3c16cc5a5bbceb" to="578ab09fd7464e79b73350b3087c8f32" visibility="undefined">
+              <tagged-values>
+                <tagged-value id="tv27de2abdff3542e5b97bceea1a4e452e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="fb6c4a8104594b21934fc776d2693c2f" cid="PROP010" type="property" name="GeneticModel" owner="6febef1246b342c8bbd9928e421928b1" creation-date="12/16/2023 21:39:32" visibility="public">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvcc92880617e544008bece09eaa997333" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GeneticModel" />
+                <tagged-value id="tv5187c0a8d94a484cb79ab001ceea3807" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvd093ec965f014a0e87d558181a7ba0e9" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Individual.cs" />
+                <tagged-value id="tvf87a44b0f5f043b997de63084b44a7b9" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv3ef3d4a73695459e9fae443eb5c16f92" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="124" />
+                <tagged-value id="tvfe45c4e704674ee48a2b897398963c4b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="35" />
+                <tagged-value id="tv7b8dc4425f244c3484b5f02c3f888856" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="325" />
+                <tagged-value id="tv19eff46476c84751bb8f3ef2e95e9787" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="fb6c4a8104594b21934fc776d2693c2f_property_c" type="property" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <structural-feature type="T" type-id="T" />
+            </item>
+            <item id="242d2a659b724b8f854c3f899d2717e0" cid="REA002" type="realization" creation-date="12/16/2023 21:39:32" from="e4bc33e1b8624523b83ee6c32bb69ca5" to="578ab09fd7464e79b73350b3087c8f32" visibility="undefined">
+              <tagged-values>
+                <tagged-value id="tvc26fbf469394487b83efe187d42930e7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="52b8d2b5bf064390b22f90bf0d29ab90" cid="ELEM008" type="template-binding" creation-date="12/16/2023 21:39:32" from="fd7cc5d45b4c4a36917e225157fcee5c" to="e97c9ad5016a46ceba97437abfaeab18">
+              <stereotypes>
+                <stereotype name="bind" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvb02519c913464261a2cac160d350f699" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="52b8d2b5bf064390b22f90bf0d29ab90_bind_c" type="bind" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <template-binding>
+                <substitution formal="bcabf31ac45849cc8ebc46b0d63eb3e7" actual="e4bc33e1b8624523b83ee6c32bb69ca5" />
+              </template-binding>
+            </item>
+            <item id="4a81b8c8253d4b74a6a0211057c0c080" cid="C004" type="class" name="Model1Crossover" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv79bfe6aca43546f2bc20372f7c4818f0" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv9c92880abc0648e78cc98158bda8e12e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model1Crossover" />
+                <tagged-value id="tv87dd5c4ee553468b9c5ff129e1e66936" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvb0295dff240d4b4f935ef4130f7172bc" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Crossovers\Model1Crossover.cs" />
+                <tagged-value id="tvfdeb72db7f5547fcbcb41b915ab80c2e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv1491ba9af7be43cb8e6f15339881a7d4" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="77" />
+                <tagged-value id="tvcac32a5d6bf649bfa902f19ac6b00af9" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="601" />
+                <tagged-value id="tvbb69337591fe40b49a9996b69bd3221b" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="681" />
+                <tagged-value id="tv02affddd360d45c799fc4a6028cd474c" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <operations>
+                <operation id="oed7b42e5d52a43eda51e0734a86c75fc485" cid="OP016" name="Crossover" creation-date="12/16/2023 21:39:32" type="Model1" type-id="Class:e4bc33e1b8624523b83ee6c32bb69ca5" visibility="public">
+                  <parameters>
+                    <parameter id="pe317c10850df4c859963a1b4ecd025ad" name="parent1" type="Model1" type-id="Class:e4bc33e1b8624523b83ee6c32bb69ca5" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="pd120e32ed66340e5927b9fee25c8ff93" name="parent2" type="Model1" type-id="Class:e4bc33e1b8624523b83ee6c32bb69ca5" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv7437285b77f849eda64f52de09987477" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Crossover" />
+                    <tagged-value id="tvfec793f84c7642e78c139ec6497774b3" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Crossovers\Model1Crossover.cs" />
+                    <tagged-value id="tv36a656caae9f4d25a79e7792dfbc9e8d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tveca26ef2ec8b477abe811b58fbc9a3be" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="140" />
+                    <tagged-value id="tv3fe8bc5dbe7743eea913eec84de10094" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="535" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        Dictionary&lt;Model1.Names, int&gt; childData = new();
+        for (var i = 0; i &lt; parent1.Data.Count; i++)
+            if (i &lt; parent1.Data.Count / 2)
+                childData[Enum.GetValues&lt;Model1.Names&gt;()[i]] = parent1.Data[Enum.GetValues&lt;Model1.Names&gt;()[i]];
+            else
+                childData[Enum.GetValues&lt;Model1.Names&gt;()[i]] = parent2.Data[Enum.GetValues&lt;Model1.Names&gt;()[i]];
+
+        return new Model1(childData, parent1.SimulationTime);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="5819e80a332c4fcfabfa84bfb6bbf124" cid="ELEM005" type="template-binding" creation-date="12/16/2023 21:39:32" from="4a81b8c8253d4b74a6a0211057c0c080" to="23e716a798f54ac183a25cdddbbe8d4d">
+              <stereotypes>
+                <stereotype name="bind" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvc5e8fc9942334692be86c536f5e34f23" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="5819e80a332c4fcfabfa84bfb6bbf124_bind_c" type="bind" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <template-binding>
+                <substitution formal="35ac629cd94743c3a1572ade561d5115" actual="e4bc33e1b8624523b83ee6c32bb69ca5" />
+              </template-binding>
+            </item>
+            <item id="822f1d56dadf49c085f0620f5c2256dd" cid="REL004" type="relationship" creation-date="12/16/2023 21:39:32" from="fd7cc5d45b4c4a36917e225157fcee5c" to="e4bc33e1b8624523b83ee6c32bb69ca5" visibility="package">
+              <tagged-values>
+                <tagged-value id="tva4e9944f37754a7dade987a6497bbb3a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <relation from="fd7cc5d45b4c4a36917e225157fcee5c" to="e4bc33e1b8624523b83ee6c32bb69ca5" derived="false">
+                <start-role id="umlar-38f82c2f-eb38-47a8-b4b1-d76d1ce91ff0" name="" navigability="" association-type="aggregation" visibility="private" />
+                <end-role id="umlar-edeba24f-a1a2-4029-b138-577beba87722" name="" navigability="" association-type="association" visibility="private" />
+              </relation>
+            </item>
+            <item id="362b815271444ec88bfa7b028646bed5" cid="PROP016" type="property" name="_doctorProcess" owner="eefab4b3e27749a89e33dc7fb74818fc" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvf0242aece4d0407a9b9fc4ace114a8c1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="_doctorProcess" />
+                <tagged-value id="tv5d386b50853b495fbe7379b74afbf862" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvc68e2afe6db845c7ac2581e948852257" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                <tagged-value id="tvfd50dc014f544002b8de459e4b5ca369" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv4dfe10103f4541299f2e3e5b98c3c0ee" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1236" />
+                <tagged-value id="tv2f5ac15481694294bbd88ffbb7669071" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="37" />
+                <tagged-value id="tvcd63dc463f0f40e7bd31e01e25d14188" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1750" />
+                <tagged-value id="tv0e27bd5926f04bd687c6ef55e1ad4236" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <structural-feature type="DoctorProcess" type-id="Class:223762fd705242aaa6e059109399c971" />
+            </item>
+            <item id="3851d40e954146df89bc7a4e02635d4d" cid="C005" type="class" name="Model2Crossover" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvd27b2a77b5bc465fba576ded93beaf0d" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv1ef1f4395eea4f28abc85b1ab289d27b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model2Crossover" />
+                <tagged-value id="tv7438c244ed454661a0e1fccb48ea290c" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv4c416209d5934799905d3962448011c5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Crossovers\Model2Crossover.cs" />
+                <tagged-value id="tv27f3b21708e24f2d901a99a0c1a85b0e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv092e5de13a9840659802966bb47e85ed" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="77" />
+                <tagged-value id="tvc3fe513180e0428bb5f32d8676283153" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="601" />
+                <tagged-value id="tvc362b757490944fcba97a8acede20ccb" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="681" />
+                <tagged-value id="tv01233278381641ec97864d9268866c93" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <operations>
+                <operation id="o4fb0df3f56e8470abe2c95b35fd0da01487" cid="OP019" name="Crossover" creation-date="12/16/2023 21:39:32" type="Model2" type-id="Class:afc38044061c4d399a3c16cc5a5bbceb" visibility="public">
+                  <parameters>
+                    <parameter id="p16580e8102214697bcbe4e4ed71626a7" name="parent1" type="Model2" type-id="Class:afc38044061c4d399a3c16cc5a5bbceb" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="p0aa90c3b138043fb88fabf3b9b3f7ea0" name="parent2" type="Model2" type-id="Class:afc38044061c4d399a3c16cc5a5bbceb" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv4d81a1275a5741fa9ba052ec02bbabb4" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Crossover" />
+                    <tagged-value id="tv18731557625e4af5b4ed88406148fa4e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Crossovers\Model2Crossover.cs" />
+                    <tagged-value id="tv3155d1c55ae644cbb1e287c30689ec05" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv296a14c74823441aa4d56be2200bf424" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="140" />
+                    <tagged-value id="tv746909cbd60c44d9963cb70032bf4011" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="535" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        Dictionary&lt;Model2.Names, int&gt; childData = new();
+        for (var i = 0; i &lt; parent1.Data.Count; i++)
+            if (i &lt; parent1.Data.Count / 2)
+                childData[Enum.GetValues&lt;Model2.Names&gt;()[i]] = parent1.Data[Enum.GetValues&lt;Model2.Names&gt;()[i]];
+            else
+                childData[Enum.GetValues&lt;Model2.Names&gt;()[i]] = parent2.Data[Enum.GetValues&lt;Model2.Names&gt;()[i]];
+
+        return new Model2(childData, parent1.SimulationTime);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="e2d2dd49f29444dea44462c022daac2b" cid="PROP011" type="property" name="Fitness" owner="6febef1246b342c8bbd9928e421928b1" creation-date="12/16/2023 21:39:32" visibility="public">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv27b50989050e4c8a89bf33bda41057ff" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Fitness" />
+                <tagged-value id="tv49630bb109814e7a86cccfd59c902f9c" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvb1b0d0f294d04203bff239a73b677da5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Individual.cs" />
+                <tagged-value id="tv8d3281aebcd54163bd0cd081744801db" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv26adbb64cab64cd0ab38b0a646a239b3" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="165" />
+                <tagged-value id="tvb948ae7b4877444fba3af44ec8a0c20b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="35" />
+                <tagged-value id="tv679064ba2b29427da651f5de3d6d5405" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="325" />
+                <tagged-value id="tv6d2597fc247b4b0796a1b13fa64ba562" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="e2d2dd49f29444dea44462c022daac2b_property_c" type="property" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <structural-feature type="double" type-id="CSharp.double" />
+            </item>
+            <item id="827b4614f41e459e905331a0b253f9c9" cid="PROP018" type="property" name="SimulationTime" owner="e4bc33e1b8624523b83ee6c32bb69ca5" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv5e59ad1f5e074a458459f5646572abd3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="SimulationTime" />
+                <tagged-value id="tvae2e7f3d81f444fd8b5d23e184df1558" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv069b11f93df441da896711d4bf580411" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                <tagged-value id="tvd3601944c985470fba35b0c155286ff1" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv7274e8584967470f9714588926af1c44" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="382" />
+                <tagged-value id="tv2d8c1582ae4d4f6b8c069e0e73dd498b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="29" />
+                <tagged-value id="tv6486cc0065d046caaf9a2523b2258cd6" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="3798" />
+                <tagged-value id="tva143ef85ad8042b39dd68db2419c27cb" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <structural-feature type="double" type-id="CSharp.double" />
+            </item>
+            <item id="578ab09fd7464e79b73350b3087c8f32" cid="I003" type="uml-interface-classifier" name="IGeneticModel" creation-date="12/16/2023 21:39:32" visibility="public">
+              <stereotypes>
+                <stereotype name="interface" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv7dc35dbbc86b4ddca480a2aeb297a3ec" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvdef9483d17714b6f9e10d6385c609ca9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="IGeneticModel" />
+                <tagged-value id="tv35f52c39dd3741d3b3d29d9a1bd1f2d0" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvfdc22c2a086c4a8da49b7acdd731e0bf" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\IGeneticModel.cs" />
+                <tagged-value id="tva09051b28da047f89b5c135cb33ca1a5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv271d133b5f6b45f9af039b67efd29d40" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="42" />
+                <tagged-value id="tv4a028bcc43e14cfcafa9532bca7f3acc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="115" />
+                <tagged-value id="tv9a9396731d8f4caebfaf030dc8f8ef86" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="160" />
+                <tagged-value id="tv4436a8dfad154cb78fa3966451cbadb9" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="578ab09fd7464e79b73350b3087c8f32_interface_c" type="interface" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <operations>
+                <operation id="o05cf9144d39945b49583a099180fe163490" cid="OP039" name="Mutate" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv1fa8309064614eaea87038303328a089" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Mutate" />
+                    <tagged-value id="tv9e2de37e4b1c4aa484f368f32dd5b8f6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\IGeneticModel.cs" />
+                    <tagged-value id="tvc483b8778fc542eea37c292a89e70b6b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv3e672e56f579434982c556844d99592c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="81" />
+                    <tagged-value id="tv4fd951775457439ca6e7b7e2e9671acc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="14" />
+                  </tagged-values>
+                </operation>
+                <operation id="oc35cab34397a4d1385f753c964fdb71d490" cid="OP040" name="Simulate" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tva0262dd5e9c04ebf8079a41ae4fb2c48" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Simulate" />
+                    <tagged-value id="tv8cc302163c3b49b78ed47bc944b67050" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\IGeneticModel.cs" />
+                    <tagged-value id="tvb173ca4c05b5460b887046bcea9027e9" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9ce12b34d4b9420ebf3498e9bd71d0be" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="101" />
+                    <tagged-value id="tve9d1ad85aa124ba49d8ec7204de02011" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="16" />
+                  </tagged-values>
+                </operation>
+                <operation id="oa654a84b68c14fba9aaa7509f4b92d9f490" cid="OP041" name="CalculateProfit" creation-date="12/16/2023 21:39:32" type="double" type-id="CSharp.double" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv7d75f1629ea540e78457d351a566e7f7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CalculateProfit" />
+                    <tagged-value id="tv73f8b00f9de84360ad68b0105236a4b6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\IGeneticModel.cs" />
+                    <tagged-value id="tv801a6317bbe146d5bb43258df997c467" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv55a87b4feb174ff9a65b91de16e6e2a6" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="123" />
+                    <tagged-value id="tv954c6838f05b4c95b2b724df01fe7a01" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="25" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="3cb5501fec754eeb959e2ec973ac0d0b" cid="PROP017" type="property" name="_model" owner="e4bc33e1b8624523b83ee6c32bb69ca5" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv82cff46230d246e49acdd085bf7fe17d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="_model" />
+                <tagged-value id="tv6b9e9452f93c47b883a705edd5213f8b" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv6d6ed327078342879fac9955e57b5851" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                <tagged-value id="tv65aa07d9f7ad416f863dec8025cc5584" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv778fa7b1060c410a91a3aa46494e1396" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="355" />
+                <tagged-value id="tve56ec3ae3e1643eaa3dd3a31cb0d651f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="21" />
+                <tagged-value id="tvec13e4d5fc6944f48443022b631d5f52" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="3798" />
+                <tagged-value id="tv2b8c5ee3c0c943888a54e0382ac1e96b" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <structural-feature type="Model" type-id="Model" />
+            </item>
+            <item id="6febef1246b342c8bbd9928e421928b1" cid="C003" type="class" name="Individual" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tve62ebe40fd904536b096f6b74a694eae" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tve394b1ec7098421090da0f696c5e345e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Individual" />
+                <tagged-value id="tv52e1c96166e44d1192bb294a7c1b249b" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv17beacd1b4184d96bf625e6636c6cfa3" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Individual.cs" />
+                <tagged-value id="tv14a5d8ee5be640caa77f4bc9808b98a1" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv3bbdad0f115d453189c7308816543338" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="66" />
+                <tagged-value id="tvb134b866bbb14d94969728b52ea432cf" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="256" />
+                <tagged-value id="tvf36d5e83d41a4d059eb8f6e4c08227be" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="325" />
+                <tagged-value id="tvf740e2b730764a0f95153adb14dbc92f" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="ae05b2d6ee41e4a8c9a6dfbff4252c807485" cid="PROP010" name="GeneticModel" creation-date="12/16/2023 21:39:32" property-ref="fb6c4a8104594b21934fc776d2693c2f" />
+                <attribute id="a7745e3a65138438fbdf850e65b1c944e485" cid="PROP011" name="Fitness" creation-date="12/16/2023 21:39:32" property-ref="e2d2dd49f29444dea44462c022daac2b" />
+              </attributes>
+              <template-parameters>
+                <template-parameter id="t0c9126b7ba8b4a228462fea9c7969056485" name="T" kind="" default-value="" ref="d8fcf0f01b344f8795255eda06111268" creation-date="12/16/2023 21:39:32" />
+              </template-parameters>
+              <operations>
+                <operation id="off7e5957fb1a4787931b97e6c1cca7d9485" cid="OP015" name="Individual" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p6fac7ffaa2f44ef09d19f2f49a2ef47b" name="geneticModel" type="T" type-id="T" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv8716e768dd3644a595c24dac9c4f8c84" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Individual" />
+                    <tagged-value id="tv723b03bc73674daa91922c9e072c1ca1" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Individual.cs" />
+                    <tagged-value id="tvb1214bb796bb4c0b9f5a692a2af6274d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tveb5b447425124dab9f928eba1cc19049" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="212" />
+                    <tagged-value id="tv836f5324978141d8b2f307130a0502fd" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="107" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="0da1e607b5074e0496be8d414e9f929f" cid="C006" type="class" name="Model2Factory" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvaa1f574a737a4c2db99005abe865b68a" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvcc0aaac91952428f98a5b7c6e44ddb15" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model2Factory" />
+                <tagged-value id="tv6f820679bf74427bb3d353cc25da2267" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvcdc6c57588214ae68186a1523a47a165" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Fabrics\Model2Factory.cs" />
+                <tagged-value id="tv848968bb977d42aea5d6d320ae3e11a7" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvf936df6528504b8faac8450420abb55b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="74" />
+                <tagged-value id="tvca1832541f6f43f681638e2c064391da" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="824" />
+                <tagged-value id="tv22518691f2d34c12b929d3a852f9c139" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="901" />
+                <tagged-value id="tv7b0fb25a309045169ebd1d263abce724" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <operations>
+                <operation id="od2f635b52da0473aa22bc617e62f3b6d487" cid="OP020" name="CreateRandomModel" creation-date="12/16/2023 21:39:32" type="Model2" type-id="Class:afc38044061c4d399a3c16cc5a5bbceb" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv606880206f2d44c781780f94dccec8c0" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateRandomModel" />
+                    <tagged-value id="tv73cf39f5103d4cb3bf3cea9ef049892c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\Fabrics\Model2Factory.cs" />
+                    <tagged-value id="tv884d8d5732404015b581fbacc169929f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tve16647a585784d3399526ee90520f7ff" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="140" />
+                    <tagged-value id="tv35ed2fa9e9bd42f2a58d67306ae9a21e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="755" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var data = new Dictionary&lt;Model2.Names, int&gt;()
+        {
+            { Model2.Names.DoctorsCount, Random.Shared.Next(1, 5) },
+            { Model2.Names.DoctorsQueue, Random.Shared.Next(0, 100) },
+            { Model2.Names.AttendantsCount, Random.Shared.Next(1, 5) },
+            { Model2.Names.AttendantsQueue, Random.Shared.Next(0, 100) },
+            { Model2.Names.RegistryWorkersCount, Random.Shared.Next(1, 5) },
+            { Model2.Names.RegistryQueue, Random.Shared.Next(0, 100) },
+            { Model2.Names.AssistantsCount, Random.Shared.Next(1, 5) },
+            { Model2.Names.AssistantsQueue, Random.Shared.Next(0, 100) },
+        };
+        return new Model2(data, 3000);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="2f9837e32e15406abfaf1bce7e74fcc8" cid="PROP004" type="property" name="MutationProbability" owner="5176c384e7e243f2b27de52943b587b3" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv3e37f70e03394e7c81baf262b02bfadb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MutationProbability" />
+                <tagged-value id="tv0b2e90b9072d4c1d84200583a678bb88" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv4ce306a441a04931b9cca21416733ca7" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                <tagged-value id="tvc7381dab17664582aa0d9b2ac25b8fa5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvb320ec57ccf84927bcca4164cfc0e90c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="337" />
+                <tagged-value id="tvc39c4474568e4596b22f4937f489ff72" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="47" />
+                <tagged-value id="tv148a9dd1cf3745bb8ae4e7768e933277" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4035" />
+                <tagged-value id="tvb56e93d736a54c9999cbccd2cf411bd9" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <structural-feature type="double" type-id="CSharp.double" />
+              <property default-value="0.3" />
+            </item>
+            <item id="5211d27012bc4d1cb7130caf0c627930" cid="PROP003" type="property" name="CrossoverProbability" owner="5176c384e7e243f2b27de52943b587b3" creation-date="12/16/2023 21:39:32" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv8e7211b3bd944b02a430d9559472a1f8" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CrossoverProbability" />
+                <tagged-value id="tva4a4376d73eb47368f708dd2fa37326d" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tveefdaa8804694c3782e7a70a260f2a16" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticAlgorithm.cs" />
+                <tagged-value id="tv5b2be86f3a884312a7d4eb553abcf7c1" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv2ce0e0801f38442da89f272dacc0292c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="283" />
+                <tagged-value id="tv7d8b0d5cf8e54854a2dcc69be146b121" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="48" />
+                <tagged-value id="tvd84f6adff6cd42259894154402f7c77f" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4035" />
+                <tagged-value id="tv4ac2b1562727478c9aeb210966ac7de8" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:39" />
+              </tagged-values>
+              <structural-feature type="double" type-id="CSharp.double" />
+              <property default-value="0.7" />
+            </item>
+            <item id="0af26d5815c34bb48a12b87c914b7705" cid="CNT002" type="containment" creation-date="12/16/2023 21:39:32" from="977a3a89537b446e87a46e73ea07d502" to="e4bc33e1b8624523b83ee6c32bb69ca5">
+              <tagged-values>
+                <tagged-value id="tvf983f66d621f4cb7bb3b37d29f845ab6" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="99671dff58514642b2c21bf22c583db9" cid="ELEM006" type="template-binding" creation-date="12/16/2023 21:39:32" from="3851d40e954146df89bc7a4e02635d4d" to="23e716a798f54ac183a25cdddbbe8d4d">
+              <stereotypes>
+                <stereotype name="bind" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tve0a53a7ec67c4ba8af5863eb98adb6c5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="99671dff58514642b2c21bf22c583db9_bind_c" type="bind" creation-date="12/16/2023 21:39:32" ref="" />
+              </stereotype-instances>
+              <template-binding>
+                <substitution formal="35ac629cd94743c3a1572ade561d5115" actual="afc38044061c4d399a3c16cc5a5bbceb" />
+              </template-binding>
+            </item>
+            <item id="e4bc33e1b8624523b83ee6c32bb69ca5" cid="C014" type="class" name="Model1" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv570b5e9cfc3f49079ee5103cbe5a6bf1" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv7e95d5db0df74d729f8e7a5dbc796899" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model1" />
+                <tagged-value id="tva134da7e00e94b9e85c78974c99a7b8e" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv1b460869b5a9434a941ab3b46d92dc73" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                <tagged-value id="tv0fe2529e07494844add1b8bae130078b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tva5df6e9ad89e4d6a94e27721f8fd5020" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="155" />
+                <tagged-value id="tv3ba77f7068774fc9a6941ac7afe6f449" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="3640" />
+                <tagged-value id="tv8d44cb287dce4a09ad9385e45f8b35cb" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="3798" />
+                <tagged-value id="tv09de5c557f904fd7bd6348a25820cdeb" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a8b67bb3e9aab4effa9585dd4d643b027489" cid="PROP017" name="_model" creation-date="12/16/2023 21:39:32" property-ref="3cb5501fec754eeb959e2ec973ac0d0b" />
+                <attribute id="ad4b0ca0093884f34babdccb72d4f5597490" cid="PROP018" name="SimulationTime" creation-date="12/16/2023 21:39:32" property-ref="827b4614f41e459e905331a0b253f9c9" />
+                <attribute id="a228982034d3145b2b8cb4d9d1df534f1490" cid="PROP019" name="Data" creation-date="12/16/2023 21:39:32" property-ref="fa95a04b77a24ea78d66622ed228b10e" />
+              </attributes>
+              <operations>
+                <operation id="ofa96462283834eecadbe68726594d78c490" cid="OP033" name="Model1" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p014bb58bfe2f46279f2603fca041b81c" name="data" type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="pf4bb3641a21f4a03a5f11c7d5cbe218f" name="simulationTime" type="double" type-id="CSharp.double" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvebb03b88315d427ab862d75d357fe26f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Model1" />
+                    <tagged-value id="tvfff6c3c902db4941af8d62be8f0cf56e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tv98f30ff2eed2480093a823497a59224e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv5eab9f3888234b088d505c0d5a74539c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="467" />
+                    <tagged-value id="tv89538665145144b7a81f442a23a3ab50" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="180" />
+                  </tagged-values>
+                </operation>
+                <operation id="o8002b23f04af4449a6a0814de506e517490" cid="OP034" name="Mutate" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv57b2d7361df4486aaff5ca4e7f1fbc5a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Mutate" />
+                    <tagged-value id="tv352f5506a5d5413e9a073d1a07bb69f2" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tv6a1f0d31be5d4a7aa484dcf618e66e78" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv67c53f9cde8049db92ca80e3769f2288" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="655" />
+                    <tagged-value id="tv352d51334c8a485ab5cd59407405c2d1" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="406" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        while (true)
+        {
+            var parameterIndex = Random.Shared.Next(Data.Count);
+            var adder = Random.Shared.Next(-1, 1);
+            Data[Enum.GetValues&lt;Names&gt;()[parameterIndex]] += adder;
+            if (DataIsValid(Data)) break;
+            Data[Enum.GetValues&lt;Names&gt;()[parameterIndex]] -= adder;
+        }
+
+        UpdateSMOModel();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oce81a787a75d4bb6ae0c1951509c5101490" cid="OP035" name="CreateModel" creation-date="12/16/2023 21:39:32" type="Model" type-id="Model" visibility="public" static="true">
+                  <parameters>
+                    <parameter id="p6b6628aed49c49e6a1d2637389526cae" name="data" type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv27a4dbd09d944156893ad9802efd3001" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateModel" />
+                    <tagged-value id="tvbc102f6d7d954d94a593190058fa88e6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tveec73aa8e5fa4fc8a7fb50cf529374a4" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv0b8b81da0ba34e06895eced5b06cc044" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1221" />
+                    <tagged-value id="tvfffde3d3564f454e995d8c4273d5734a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1056" />
+                  </tagged-values>
+                  <documentations>
+                    <doc id="605774ae75364ab2aa45821fdb4832b5">
+                      <text>
+                        <default>
+                          <style font-name="Verdana" font-size="12">
+                            <text>
+                              <solid-brush color="#FF000000" />
+                            </text>
+                          </style>
+                        </default>
+                        <styles />
+                        <content>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t> |create|     |---&gt; |process1| -&gt; |dispose|
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>     |        |
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>     |--------|   (queue priority)     
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>              |
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>              |---&gt; |process2| -&gt; |process3| -&gt; |dispose|
+</t>
+                            </p>
+                          </paragraph>
+                        </content>
+                      </text>
+                    </doc>
+                  </documentations>
+                  <source-codes>
+                    <source-code language="CSharp">
+        Create create = new(delay: 1);
+        Process process1 = new(delay: 50, data[Names.SubProcessCount1], "Process1", data[Names.MaxQueue1]);
+        Process process2 = new(delay: 7, data[Names.SubProcessCount2], "Process2", data[Names.MaxQueue2]);
+        Process process3 = new(delay: 12, data[Names.SubProcessCount3], "Process3", data[Names.MaxQueue3]);
+
+        var container = new NextElementsContainerByQueuePriority();
+        container.AddNextElement(process1, 1);
+        container.AddNextElement(process2, 2);
+        create.NextElementsContainer = container;
+        process2.NextElementsContainer = new NextElementContainer(process3);
+
+        return new Model(new List&lt;Element&gt; { create, process1, process2, process3 });
+
+                                                     
+                         
+                                                 
+                         
+                                                                   
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o0352a179db7d4716b30048ba517e3b11490" cid="OP036" name="CalculateProfit" creation-date="12/16/2023 21:39:32" type="double" type-id="CSharp.double" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvea3e0ba0d9854568a695b3c558796d84" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CalculateProfit" />
+                    <tagged-value id="tvce2db6659e944c66a0894d28d2844e4d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tvd64d8aca3bcb4e3cb6390b01dbf49fa5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv204a7216964f4779a5d11caeaeb171f5" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2285" />
+                    <tagged-value id="tv484f9c04c39e4f4c8a7b8e083b535d0d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="692" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return (Data[Names.SubProcessCount1] + Data[Names.SubProcessCount2] + Data[Names.SubProcessCount3]) * -1 +
+               (Data[Names.MaxQueue1] + Data[Names.MaxQueue2] + Data[Names.MaxQueue3]) * -100 +
+               _model.StatisticHelper.FailurePercent * -1000;
+        
+        return Data[Names.SubProcessCount1] * -8 +
+               Data[Names.MaxQueue1] * -100 +
+               Data[Names.SubProcessCount2] * -10 +
+               Data[Names.MaxQueue2] * -100 +
+               Data[Names.SubProcessCount3] * -7 +
+               Data[Names.MaxQueue3] * -100 +
+               _model.StatisticHelper.FailurePercent * -1000;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o31c102e855b44628a975e3fb151a322a490" cid="OP037" name="DataIsValid" creation-date="12/16/2023 21:39:32" type="bool" type-id="CSharp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pb28da5c13b364ba38e82397976eed1a1" name="data" type="Dictionary&lt;Names, int&gt;" type-id="CSharp.Dictionary_Names_CSharp.int" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv3ae021fb71d44311b7b49355a5fd8c2f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="DataIsValid" />
+                    <tagged-value id="tv59731307be2c424785d66d0d49dd1369" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tv3753aad7af11490eb56448442fc83407" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv13d2959ee4ef4d99be00feddb4c45eaf" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2989" />
+                    <tagged-value id="tv5d70360af96041b184db4fd852d800e8" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="289" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        for (var i = 0; i &lt; data.Count; i++)
+        {
+            if (i % 2 == 0 &amp;&amp; data[(Names)i] &lt;= 0) return false;
+            if (i % 2 == 1 &amp;&amp; data[(Names)i] &lt; 0) return false;
+        }
+
+        return true;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oc144c4b7371b4f888ca2e278f2ee7ace490" cid="OP038" name="ToString" creation-date="12/16/2023 21:39:32" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvab3dbf998b0e4ebd8322c017a67265da" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ToString" />
+                    <tagged-value id="tvd3ec4df9fbc04203aa66bf998225998c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tvead2549c63fe4d55b0a37bb545815e10" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv2d5ea9af03fd4eab8ac93d843249e274" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3290" />
+                    <tagged-value id="tv28aa2e487d4d49deb363069c7c25ac09" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="502" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return $"SubProcessCount1: {Data[Names.SubProcessCount1]}\n MaxQueue1: {Data[Names.MaxQueue1]}\n" +
+               $"SubProcessCount2: {Data[Names.SubProcessCount2]}\n MaxQueue2: {Data[Names.MaxQueue2]}\n" +
+               $"SubProcessCount3: {Data[Names.SubProcessCount3]}\n MaxQueue3: {Data[Names.MaxQueue3]}\n" +
+               $"FailurePercent: {_model.StatisticHelper.FailurePercent}\n" +
+               $"Fitness: {CalculateProfit()}";
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="eefab4b3e27749a89e33dc7fb74818fc" cid="C013" type="class" name="NextAfterDoctor" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv328e5810f6c545eda04000da86b126f5" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv73959da3845c45af9868cccd671e4707" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NextAfterDoctor" />
+                <tagged-value id="tva18526e4b161481198516f6e47141601" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv269f81ab1b4d469e985790b28085a875" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                <tagged-value id="tvf2ab306ee97f473f884ad2bc004e6b3a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvfd47596893e44fef90fc0bd75823f257" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1081" />
+                <tagged-value id="tv3830acc20b47452493c938c495c94567" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="666" />
+                <tagged-value id="tvc5d788114c6442a88cfc130e2520556d" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1750" />
+                <tagged-value id="tv9747069b0ce443508ac7d39dea5b6c10" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a4d685ad9302a4329848d5c893b67f358489" cid="PROP014" name="NextAttendantProcess" creation-date="12/16/2023 21:39:32" property-ref="62f0fbad28424374a0ecc7d621be409d" />
+                <attribute id="afe061037e1764fb794c266ead34c90e7489" cid="PROP015" name="NextWayToLab" creation-date="12/16/2023 21:39:32" property-ref="f6aeab4d4ead4eb3955c2f06949cea65" />
+                <attribute id="a30dee7bf2e27431a8e973429fd739ef7489" cid="PROP016" name="_doctorProcess" creation-date="12/16/2023 21:39:32" property-ref="362b815271444ec88bfa7b028646bed5" />
+              </attributes>
+              <operations>
+                <operation id="o6bc20c14d1164e2689eb88977960f6d5489" cid="OP031" name="NextAfterDoctor" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pd082d2e64af5410a9763533f3608264b" name="doctorProcess" type="DoctorProcess" type-id="Class:223762fd705242aaa6e059109399c971" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="pfcd92d8a4e6642318719ff054de0e2ff" name="nextAttendantProcess" type="Process" type-id="Process" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="p4800f63a9d3d42bebaea598d3457dfae" name="nextWayToLab" type="Process" type-id="Process" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvd7e858f83465403ab7d2a4b74c36eed2" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NextAfterDoctor" />
+                    <tagged-value id="tv7e715da0db6e4d08b96a8b16f650817f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                    <tagged-value id="tv58653054115940698738c0e3e468d25f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvb4ab0bfcb51c43718a1a1eade17b3ad4" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1281" />
+                    <tagged-value id="tv83e1bbc7f7ab48e18607e66880ca434e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="250" />
+                  </tagged-values>
+                </operation>
+                <operation id="o8b19ef45450e4be0b5acd7062eed483b489" cid="OP032" name="GetNextElement" creation-date="12/16/2023 21:39:32" type="Element" type-id="Element" visibility="protected">
+                  <tagged-values>
+                    <tagged-value id="tv81b69c6b8aa0401896dd9e3b2a92a4e0" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetNextElement" />
+                    <tagged-value id="tv8c91bfc90bff463e8630f92def7fd486" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                    <tagged-value id="tv4fdf9e0e320c47ffad705281add9b278" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv5926ba24e9a44e5a8ee4bf53c89a6bc9" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1539" />
+                    <tagged-value id="tvcb5d9b5d101a40aeb94c48c3f4783d12" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="205" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        var client = _doctorProcess.Item as Client;
+        return client.ClientType == ClientType.Chamber ? NextAttendantProcess : NextWayToLab;
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="a73a08c6cd6346f19fd629d60230dc3a" cid="E001" type="enumeration" name="Names" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv27862e055541421e8d750df962d6df70" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvfae6f0e2559b41cea6cf3189bf376b08" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Names" />
+                <tagged-value id="tv470364d58ffe4e769a110bed35d0ec76" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvec2a1e20ce6243d680b0a2b5365d01f5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                <tagged-value id="tv1f02137b7049409483af96f83047774f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv4f9824ccf1cd4f08ad346a753b3a7ef0" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="306" />
+                <tagged-value id="tv3f4a05794253473492d1a6879c187f76" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="236" />
+                <tagged-value id="tvc21d4bcf532d4b08bae60ad5c3297836" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="5162" />
+                <tagged-value id="tvaf7f046c755447418a51f21a3e358bc0" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <enumeration-items>
+                <enumeration-item id="a4b4f1dae76914a1b8335aa9eccc3fb41476" cid="ENI001" name="DoctorsCount" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv0ef95baf6f6f4660b22c331faa866648" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="DoctorsCount" />
+                    <tagged-value id="tv3f0d19fa41db4291b8cfa4c89919fa5b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv76bff00eee624ae890d312bbb3a97e32" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv0acc6b800b504db09facc4601a25186e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="340" />
+                    <tagged-value id="tv0a25259079714abc84972da4f8658644" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="13" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="ab25935620cca470192ed3d9f16991378476" cid="ENI002" name="DoctorsQueue" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tvc75f0eb1fac640ccb50095c50c46cc53" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="DoctorsQueue" />
+                    <tagged-value id="tv56a5634cdf8c4292b95bb44eed422a2b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tvde33acdd5aeb49f58f2e3784bcd741d4" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvfeba0a5408b54ac4ba1d1324dc885e28" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="363" />
+                    <tagged-value id="tv7fe46c59d9e945b6b476d1854a6f6e72" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="13" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a57d6958f91454b35a0d6ab8410e6056c476" cid="ENI003" name="AttendantsCount" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv5d3d811807a747c0bf6fd0c6332417cc" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="AttendantsCount" />
+                    <tagged-value id="tv2e26bfb1dd23426488791df6920e46cf" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv6caacd703b044512bb6c52976d1745f3" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv2307af3ef7014cd1a1bdef6ac4947862" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="386" />
+                    <tagged-value id="tv123f7c5a892a4237931ea25fc13518b6" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="16" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="ab8fbeb715af244239622cedcf9fc7b5e476" cid="ENI004" name="AttendantsQueue" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv06e39961072242e2a6d90e4a5db02ff9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="AttendantsQueue" />
+                    <tagged-value id="tvb2541de4ba494c9ebde80448ed3d1625" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tva8807059617d4983a576d854357c610d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvfce4e913aef44f86bc7451a4775f1118" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="412" />
+                    <tagged-value id="tvb63e894894aa4c52ba1fc96f715192cc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="16" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a574bbb3341a248dfb0f5d7c0e3631ae4476" cid="ENI005" name="RegistryWorkersCount" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tvf8640dca171046dab0065a72a4500dbd" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="RegistryWorkersCount" />
+                    <tagged-value id="tv1b886b26f9b345feb25484ddfebeda14" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv2d0710b0acbc44bda107e2bd0adf14c2" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv5acaecf28a9a454dbdd518293254788e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="438" />
+                    <tagged-value id="tvb39ba32bfc1d4b1ab7cbe99f5438bf7e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="21" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a434061d42a3043119628799a0d3165ac476" cid="ENI006" name="RegistryQueue" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv759d0090f30d44649a8db9c5bb6c6938" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="RegistryQueue" />
+                    <tagged-value id="tv5dcb542aa1c64a7cb9bd0c2e9f52dd76" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv71d2bcd67ff94dc0aa96020261e00a9c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvf71979d0efd345e6b4e180427bb81cc1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="469" />
+                    <tagged-value id="tvf719573327244721b533d77bd4525ec0" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="14" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a36289a57342a4ee2a969f3ed736dddc4476" cid="ENI007" name="AssistantsCount" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv5fe5cedceb0a40b288386050a0293384" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="AssistantsCount" />
+                    <tagged-value id="tv4e27b22afd0746f0adaa8f46787c9a6d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv32257011f2b74f19a4ab62efb371adbb" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvea2d0792099047a38a3a2d61a524f095" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="493" />
+                    <tagged-value id="tv4d65c35caee3430fad8bd14161d1e778" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="16" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a6741e3b223df4412896ab4b1f7c5622b476" cid="ENI008" name="AssistantsQueue" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv0b78103e1dc940afbc71705ff8489496" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="AssistantsQueue" />
+                    <tagged-value id="tvb5d6112bcc104d65b9faba96c3c82729" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2.cs" />
+                    <tagged-value id="tv5ebaf0ce75e14786b945102c1caf9ca4" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvc3e0ef69992149fbaf42940313946ee6" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="519" />
+                    <tagged-value id="tv820cd68807f64e41859d31cada477e94" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="16" />
+                  </tagged-values>
+                </enumeration-item>
+              </enumeration-items>
+            </item>
+            <item id="223762fd705242aaa6e059109399c971" cid="C011" type="class" name="DoctorProcess" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv3ac713e13ae5432cb44f528edc7f6d7e" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv4e2741718ef5432bbffe9d59f943a889" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="DoctorProcess" />
+                <tagged-value id="tv788590d238834f9a83834df3f649be0b" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tvbf9020971df04eaaa370f71cb3326377" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                <tagged-value id="tve7d2cc99174345e6beb86a35985c14cf" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv3af1651e4195462ca7e2bc54e65bc28c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="226" />
+                <tagged-value id="tvedb4644ae95141e6ae7ae8910b214fae" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="436" />
+                <tagged-value id="tvdb949ff98aa040a6b87d382afef6a064" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1750" />
+                <tagged-value id="tv544994bcc6d94e6081ebec619c2828a2" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <operations>
+                <operation id="of08a8f39eb064a7983c602599d61c0ff488" cid="OP027" name="DoctorProcess" creation-date="12/16/2023 21:39:32" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p8178c6c12d6345889700cae386531582" name="doctorsCount" type="int" type-id="CSharp.int" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="p87d867bfd3594c93a48da2aa18807e0c" name="name" type="string" type-id="CSharp.string" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="p86d74fefce604109b4b8b6bd7d1350b3" name="subProcessName" type="string" type-id="CSharp.string" creation-date="12/16/2023 21:39:32" />
+                    <parameter id="pa0ed9322534b4fae9f5351788f4dc9c6" name="maxQueue" type="int" type-id="CSharp.int" default-value="2147483647" creation-date="12/16/2023 21:39:32" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvbc7bc0ce1310438e823d591d6c8bc51d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="DoctorProcess" />
+                    <tagged-value id="tvec07f1208cb5432baa5241bfebcd56cd" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                    <tagged-value id="tveb0fbc19f97c4b28b2fcb2ba4a1e682d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv2c909da9ad5141bab6972bee51ee7794" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="271" />
+                    <tagged-value id="tv5984f13533ac468a881f025809c2ff9c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="252" />
+                  </tagged-values>
+                </operation>
+                <operation id="oac3be31b28cd46e7809b9f72d046d8b6488" cid="OP028" name="GetDelay" creation-date="12/16/2023 21:39:32" type="double" type-id="CSharp.double" visibility="protected">
+                  <tagged-values>
+                    <tagged-value id="tvc77a8b99375d49028cc16f54f0cbfb11" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetDelay" />
+                    <tagged-value id="tvb584a08e33724752bbd8120930aae0c5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model2HospitalElements\DoctorProcess.cs" />
+                    <tagged-value id="tvf5632b08f30a4fde9fe87880e938a0a9" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tve74e677701524634885e1bd099b75c14" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="529" />
+                    <tagged-value id="tvaee69abef1754dcda31f15457337f276" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="130" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return (Item as Client).RegistrationTime + Randomizer.GenerateDelay();
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="35ac629cd94743c3a1572ade561d5115" cid="ELEM003" type="template-parameter" name="T" creation-date="12/16/2023 21:39:32">
+              <template-parameter kind="IGeneticModel" />
+            </item>
+            <item id="977a3a89537b446e87a46e73ea07d502" cid="E003" type="enumeration" name="Names" creation-date="12/16/2023 21:39:32" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv66ac1ec987d744e8af6aa8e1bd037072" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv37fe65fcc3944e359c8de99da1674a69" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Names" />
+                <tagged-value id="tvada7f38f755b4d579a86555a1dc45267" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p53e9b6ef1c0c4c1aa6c65d04e7121593_638257166" />
+                <tagged-value id="tv888c82a8527f429e97cfadfd6598afeb" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                <tagged-value id="tv9a93bf839e72462d8c5a505fa8c8704e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv0b90d33d2fe04b1294e9ef7e923c0e5d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="199" />
+                <tagged-value id="tve6e21e61a32d407fadea0b17bc5fff79" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="144" />
+                <tagged-value id="tve2daf4d4d49c4217994aae1ef36f26e6" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="3798" />
+                <tagged-value id="tv778f27bafd0b469fb4026181d90e6b95" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="12/08/2023 16:58:18" />
+              </tagged-values>
+              <enumeration-items>
+                <enumeration-item id="a0751ae2ea8034b258430bd3d2ec60935489" cid="ENI012" name="SubProcessCount1" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv292798d5ecae4f66b7164211f5e3a11a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="SubProcessCount1" />
+                    <tagged-value id="tvb2c46c04fafb4c56a4230c75286d72d4" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tv4eb39d9cd1ea40a0b7f0a785f134602c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv667d59409bac4e82b07dbfc51ce28bab" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="233" />
+                    <tagged-value id="tv0d09b473dd4b48b7a6808644d6bfb1c3" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="17" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a5e11a7ea1bfc4dc197f85f1115814c2c489" cid="ENI013" name="MaxQueue1" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv18963da5244246eda9f2b69c3c8943ee" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MaxQueue1" />
+                    <tagged-value id="tv102f193cc77f43e8bf3e53119729eb6d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tv107f41bf835e4dd085a43d28353597b9" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv552b1305759741c7acd99dded668cd2b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="251" />
+                    <tagged-value id="tvae6fa7a8ed0f46a9afc2444a6859c76c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="10" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a53e67a509581450691cb6eacdccbaa79489" cid="ENI014" name="SubProcessCount2" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tvd3ec06dc791840bd8c832e1860d9b001" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="SubProcessCount2" />
+                    <tagged-value id="tvafeaab9f374142e8b486f2bd2884211f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tv44830105f6204423b56c962da4bebf6a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tve4959fef988f4f0c8bc40ed5620d6dcf" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="271" />
+                    <tagged-value id="tvd3770792518840eb8aed394864d55eb1" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="17" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a34a47bac77f041f0ad864da2bd02812b489" cid="ENI015" name="MaxQueue2" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tva1c936a1af7c42c68ea32af51b4f1fc7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MaxQueue2" />
+                    <tagged-value id="tv217089e7f9ec42c8bbc8b848fbed1ebf" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tvc518ffba221a43eda35faa3aec19ca31" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvdeca7f6758fe4b689169d9a246aaaa76" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="289" />
+                    <tagged-value id="tv4ee5b467ab0c41c2b1f44de7924c6d2e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="10" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a7458f81755a540cca8386ddaf4bd24f4489" cid="ENI016" name="SubProcessCount3" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tvb09018eb82d24fd08f69a0fa6a6c98fe" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="SubProcessCount3" />
+                    <tagged-value id="tv6d47215575bf4a44866f58a14ddeb782" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tvee962015dae541dc9edd9e942de34f10" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv61f67f413a2f45abb101610f100ab7de" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="309" />
+                    <tagged-value id="tvbe0d8f955dba4b74b321e5e8438f1169" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="17" />
+                  </tagged-values>
+                </enumeration-item>
+                <enumeration-item id="a30d99abfdcda4904b3c91a6bc5449350489" cid="ENI017" name="MaxQueue3" creation-date="12/16/2023 21:39:32">
+                  <tagged-values>
+                    <tagged-value id="tv0eca3953db184b18bb9b4f5ab9fd7a98" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MaxQueue3" />
+                    <tagged-value id="tv285a02e2a61a4361ad3dee5cd8faa219" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\milag\OneDrive\Documents\CodeZone\S7_CourseWork_SMB\CourseWorkApp\CourseWorkApp\GeneticModels\Model1.cs" />
+                    <tagged-value id="tvd29d14fa8ba64f8293dd0d13d4c83273" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv1d812f591dd74971a0eb070e1fe9c56d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="327" />
+                    <tagged-value id="tv018ece05a10a4b628b8b6177a7d03ac5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="15" />
+                  </tagged-values>
+                </enumeration-item>
+              </enumeration-items>
+            </item>
+            <item id="d6004966d5be4e6188785f028d724e07" cid="REL003" type="relationship" creation-date="12/16/2023 21:39:32" from="0da1e607b5074e0496be8d414e9f929f" to="afc38044061c4d399a3c16cc5a5bbceb" visibility="package">
+              <tagged-values>
+                <tagged-value id="tv0949e688049d47a09caea4f8bf9fd76f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <relation from="0da1e607b5074e0496be8d414e9f929f" to="afc38044061c4d399a3c16cc5a5bbceb" derived="false">
+                <start-role id="umlar-012c7cd4-bb86-4992-bdf8-9474a926c4f7" name="" navigability="" association-type="aggregation" visibility="private" />
+                <end-role id="umlar-ad9b824a-3dc5-4197-8853-ffe1a57ad78e" name="" navigability="" association-type="association" visibility="private" />
+              </relation>
+            </item>
+          </abstract-items>
+          <sub-models />
+          <diagram type="uml-class" id="p14a1fe33ccb14086b5006f33dcce95c1_861205007" name="" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" namespace="" view-location="345,63" zoom="0.6">
+            <style>
+              <background-color index="1" color="#FFFFFFFF" />
+              <background-color index="2" color="#FFFFFFFF" />
+              <background-type type="vertical-linear" />
+            </style>
+            <meta>
+              <authors>
+                <author>milagalko milagalko</author>
+              </authors>
+              <description />
+              <creation-date>12/16/2023 21:39:32</creation-date>
+              <change-date>12/16/2023 21:57:37</change-date>
+              <revision-count>0</revision-count>
+              <version />
+            </meta>
+            <tagged-values>
+              <tagged-value id="tvfa26c984978f4570bbedae21b0cf90eb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+            </tagged-values>
+            <abstract-items />
+            <layer id="757a43117ac946b5823e3d3fb5803c44" name="Default" visible="true" enabled="true" locked="false">
+              <item id="99671dff58514642b2c21bf22c583db9" iid="a7c3895d24954be4b9bdb1561a609068" creation-date="12/16/2023 21:39:32" order-index="0" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1812" y1="69" x2="1600" y2="-40" start-border-pos="0.0833333358168602" end-border-pos="0.6244493424892426" start-local-pos="118" end-local-pos="114" name-position="0,20">
+                  <points>
+                    <point x="1812" y="69" />
+                    <point x="1600" y="-40" />
+                  </points>
+                </layout>
+                <relation from="3851d40e954146df89bc7a4e02635d4d" from-iid="3dfca6d04d664a159ccdcaec467ff318" to="23e716a798f54ac183a25cdddbbe8d4d" to-iid="3f0cea2a4644402fb1f3fbd60b6a60c0" />
+              </item>
+              <item id="67d50ffec9204c20843bac99a7959a1f" iid="a745c4990ecd4e2cb708279bf057e602" creation-date="12/16/2023 21:39:32" order-index="1" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2048" y1="99" x2="2038" y2="547" start-border-pos="0.375" end-border-pos="0.375" start-local-pos="30" end-local-pos="115" name-position="0,20">
+                  <points>
+                    <point x="2048" y="99" />
+                    <point x="2038" y="547" />
+                  </points>
+                </layout>
+                <relation from="3851d40e954146df89bc7a4e02635d4d" from-iid="3dfca6d04d664a159ccdcaec467ff318" to="afc38044061c4d399a3c16cc5a5bbceb" to-iid="2b44c458b1ef48bab99c606acbe2c15c" />
+              </item>
+              <item id="242d2a659b724b8f854c3f899d2717e0" iid="87852562c0b143409c0d2201bd27a309" creation-date="12/16/2023 21:39:32" order-index="3" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-to-fields="false" auto-path="" x1="1407" y1="662" x2="1601" y2="809" start-border-pos="0.5591317377984524" end-border-pos="0.125" start-local-pos="255" name-position="0,20">
+                  <points>
+                    <point x="1407" y="662" />
+                    <point x="1601" y="809" />
+                  </points>
+                </layout>
+                <relation from="e4bc33e1b8624523b83ee6c32bb69ca5" from-iid="93d46476b5214619aa66fa24cc9e38c3" to="578ab09fd7464e79b73350b3087c8f32" to-iid="ecb55e25a4e44934acd120672eccb09b" />
+              </item>
+              <item id="578ab09fd7464e79b73350b3087c8f32" iid="ecb55e25a4e44934acd120672eccb09b" creation-date="12/16/2023 21:39:32" order-index="4" type="entity">
+                <layout ax="1523" ay="809" awidth="156" aheight="116" x="1523" y="809" width="156" height="116" />
+                <classifier />
+                <class />
+              </item>
+              <item id="fd7cc5d45b4c4a36917e225157fcee5c" iid="3772e89ede724df3a7df1072b60853fe" creation-date="12/16/2023 21:39:32" order-index="5" type="entity">
+                <layout ax="1212.5" ay="291" awidth="213" aheight="60" x="1212.5" y="291" width="213" height="60" />
+                <classifier />
+                <class />
+              </item>
+              <item id="822f1d56dadf49c085f0620f5c2256dd" iid="0bea0d812da84ed6b30d853414515aaf" creation-date="12/16/2023 21:39:32" order-index="6" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1319" y1="351" x2="1319" y2="432" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="106.5" end-local-pos="167" name-position="0,20">
+                  <points>
+                    <point x="1319" y="351" />
+                    <point x="1319" y="432" />
+                  </points>
+                </layout>
+                <relation from="fd7cc5d45b4c4a36917e225157fcee5c" from-iid="3772e89ede724df3a7df1072b60853fe" to="e4bc33e1b8624523b83ee6c32bb69ca5" to-iid="93d46476b5214619aa66fa24cc9e38c3" />
+              </item>
+              <item id="23e716a798f54ac183a25cdddbbe8d4d" iid="3f0cea2a4644402fb1f3fbd60b6a60c0" creation-date="12/16/2023 21:39:32" order-index="7" type="entity">
+                <layout ax="1486" ay="-128" awidth="227" aheight="88" x="1486" y="-128" width="227" height="88" />
+                <classifier />
+                <class />
+              </item>
+              <item id="afc38044061c4d399a3c16cc5a5bbceb" iid="2b44c458b1ef48bab99c606acbe2c15c" creation-date="12/16/2023 21:39:32" order-index="8" type="entity">
+                <layout ax="1704" ay="432" awidth="334" aheight="230" x="1704" y="432" width="334" height="230" />
+                <classifier />
+                <class />
+              </item>
+              <item id="0da1e607b5074e0496be8d414e9f929f" iid="a5188a89bd67460fb8e98423e33381e6" creation-date="12/16/2023 21:39:32" order-index="9" type="entity">
+                <layout ax="1764.5" ay="291" awidth="213" aheight="60" x="1764.5" y="291" width="213" height="60" />
+                <classifier />
+                <class />
+              </item>
+              <item id="09619f9857404e9596941258e0b740fe" iid="692b30890f6e4dd394aa8c82d181af02" creation-date="12/16/2023 21:39:32" order-index="11" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1142" y1="99" x2="1152" y2="547" start-border-pos="0.875" end-border-pos="0.875" start-local-pos="30" end-local-pos="115" name-position="0,20">
+                  <points>
+                    <point x="1142" y="99" />
+                    <point x="1086" y="321" />
+                    <point x="1152" y="547" />
+                  </points>
+                </layout>
+                <relation from="4a81b8c8253d4b74a6a0211057c0c080" from-iid="313cbf620a9f45a5871622d43e161dcc" to="e4bc33e1b8624523b83ee6c32bb69ca5" to-iid="93d46476b5214619aa66fa24cc9e38c3" />
+              </item>
+              <item id="977a3a89537b446e87a46e73ea07d502" iid="aac7c53ef9ea4517a99a87a1f728e856" creation-date="12/16/2023 21:39:32" order-index="12" type="entity">
+                <layout ax="1154" ay="726" awidth="145" aheight="195" x="1154" y="726" width="145" height="195" />
+              </item>
+              <item id="06af5e0d66204768baa3620bbed5d6d2" iid="279e07c4e8dc4bb396a2b34fc9b939b3" creation-date="12/16/2023 21:39:32" order-index="14" type="relation">
+                <layout line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1765" y1="662" x2="1601" y2="809" start-border-pos="0.7047155648469925" end-border-pos="0.125" start-local-pos="61" end-local-pos="78" name-position="0,20">
+                  <points>
+                    <point x="1765" y="662" />
+                    <point x="1601" y="809" />
+                  </points>
+                </layout>
+                <relation from="afc38044061c4d399a3c16cc5a5bbceb" from-iid="2b44c458b1ef48bab99c606acbe2c15c" to="578ab09fd7464e79b73350b3087c8f32" to-iid="ecb55e25a4e44934acd120672eccb09b" />
+              </item>
+              <item id="52b8d2b5bf064390b22f90bf0d29ab90" iid="37b76d7cec04496e9fd1b904e00f05d7" creation-date="12/16/2023 21:39:32" order-index="15" type="relation">
+                <layout line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1426" y1="321" x2="1549" y2="276" start-border-pos="0.375" end-border-pos="0.6960227340459824" start-local-pos="30" end-local-pos="38" name-position="0,20">
+                  <points>
+                    <point x="1426" y="321" />
+                    <point x="1549" y="276" />
+                  </points>
+                </layout>
+                <relation from="fd7cc5d45b4c4a36917e225157fcee5c" from-iid="3772e89ede724df3a7df1072b60853fe" to="e97c9ad5016a46ceba97437abfaeab18" to-iid="2f16869682a64cfe970c87ea19ca2b4b" />
+              </item>
+              <item id="e97c9ad5016a46ceba97437abfaeab18" iid="2f16869682a64cfe970c87ea19ca2b4b" creation-date="12/16/2023 21:39:32" order-index="16" type="entity">
+                <layout ax="1511" ay="188" awidth="176" aheight="88" x="1511" y="188" width="176" height="88" />
+                <classifier />
+                <class />
+              </item>
+              <item id="0af26d5815c34bb48a12b87c914b7705" iid="6fb2d4f25e8d4d29856224ebc1080150" creation-date="12/16/2023 21:39:32" order-index="18" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1227" y1="726" x2="1226" y2="662" start-border-pos="0.12595419847328243" end-border-pos="0.6942365318536758" start-local-pos="66" end-local-pos="74" name-position="0,20">
+                  <points>
+                    <point x="1227" y="726" />
+                    <point x="1226" y="662" />
+                  </points>
+                </layout>
+                <relation from="977a3a89537b446e87a46e73ea07d502" from-iid="aac7c53ef9ea4517a99a87a1f728e856" to="e4bc33e1b8624523b83ee6c32bb69ca5" to-iid="93d46476b5214619aa66fa24cc9e38c3" />
+              </item>
+              <item id="f6f390a7c37549f89c8c76d4ec1875b5" iid="7040fdd755714891861c7f58a44936c9" creation-date="12/16/2023 21:39:32" order-index="19" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1764" y1="311" x2="1641" y2="276" start-border-pos="0.9166666666666666" end-border-pos="0.5653409063816071" start-local-pos="20" end-local-pos="130" name-position="0,20">
+                  <points>
+                    <point x="1764" y="311" />
+                    <point x="1641" y="276" />
+                  </points>
+                </layout>
+                <relation from="0da1e607b5074e0496be8d414e9f929f" from-iid="a5188a89bd67460fb8e98423e33381e6" to="e97c9ad5016a46ceba97437abfaeab18" to-iid="2f16869682a64cfe970c87ea19ca2b4b" />
+              </item>
+              <item id="d6004966d5be4e6188785f028d724e07" iid="e157eb3cf9e8466ea51e7b5528a830d0" creation-date="12/16/2023 21:39:32" order-index="20" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1871" y1="351" x2="1871" y2="432" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="106.5" end-local-pos="167" name-position="136,-52">
+                  <points>
+                    <point x="1871" y="351" />
+                    <point x="1871" y="432" />
+                  </points>
+                </layout>
+                <relation from="0da1e607b5074e0496be8d414e9f929f" from-iid="a5188a89bd67460fb8e98423e33381e6" to="afc38044061c4d399a3c16cc5a5bbceb" to-iid="2b44c458b1ef48bab99c606acbe2c15c" />
+              </item>
+              <item id="5176c384e7e243f2b27de52943b587b3" iid="6be40857b8084e9bb0cd8c2eb0cc9b9a" creation-date="12/16/2023 21:39:32" order-index="21" type="entity">
+                <layout ax="1140" ay="1003" awidth="358" aheight="424" x="1140" y="1003" width="358" height="424" />
+                <classifier />
+                <class />
+              </item>
+              <item id="a73a08c6cd6346f19fd629d60230dc3a" iid="08ef39cf87324b368c9a8ae893bfc0aa" creation-date="12/16/2023 21:39:32" order-index="22" type="entity">
+                <layout ax="1873" ay="726" awidth="152" aheight="199" x="1873" y="726" width="152" height="199" />
+              </item>
+              <item id="3851d40e954146df89bc7a4e02635d4d" iid="3dfca6d04d664a159ccdcaec467ff318" creation-date="12/16/2023 21:39:32" order-index="23" type="entity">
+                <layout ax="1694" ay="69" awidth="354" aheight="60" x="1694" y="69" width="354" height="60" />
+                <classifier />
+                <class />
+              </item>
+              <item id="6febef1246b342c8bbd9928e421928b1" iid="d68ead94c17e4b8d9c0f5d4698d2932a" creation-date="12/16/2023 21:39:32" order-index="26" type="entity">
+                <layout ax="1549" ay="1012" awidth="245" aheight="108" x="1549" y="1012" width="245" height="108" />
+                <classifier />
+                <class />
+              </item>
+              <item id="4a81b8c8253d4b74a6a0211057c0c080" iid="313cbf620a9f45a5871622d43e161dcc" creation-date="12/16/2023 21:39:32" order-index="27" type="entity">
+                <layout ax="1142" ay="69" awidth="354" aheight="60" x="1142" y="69" width="354" height="60" />
+                <classifier />
+                <class />
+              </item>
+              <item id="5819e80a332c4fcfabfa84bfb6bbf124" iid="7de4df1148b540c5aa9ae4c26882d277" creation-date="12/16/2023 21:39:32" order-index="29" type="relation">
+                <layout line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1319" y1="69" x2="1600" y2="-40" start-border-pos="0.125" end-border-pos="0.6244493424892426" start-local-pos="177" end-local-pos="114" name-position="0,20">
+                  <points>
+                    <point x="1319" y="69" />
+                    <point x="1600" y="-40" />
+                  </points>
+                </layout>
+                <relation from="4a81b8c8253d4b74a6a0211057c0c080" from-iid="313cbf620a9f45a5871622d43e161dcc" to="23e716a798f54ac183a25cdddbbe8d4d" to-iid="3f0cea2a4644402fb1f3fbd60b6a60c0" />
+              </item>
+              <item id="708382ca97c94771b72ebd6030990860" iid="7845afedd9df4089ae8efe5994fb8734" creation-date="12/16/2023 21:39:32" order-index="30" type="relation">
+                <layout line-style="perpendicular" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1949" y1="726" x2="1950" y2="662" start-border-pos="0.125" end-border-pos="0.5658682659268379" end-local-pos="246" name-position="0,20">
+                  <points>
+                    <point x="1949" y="726" />
+                    <point x="1950" y="662" />
+                  </points>
+                </layout>
+                <relation from="a73a08c6cd6346f19fd629d60230dc3a" from-iid="08ef39cf87324b368c9a8ae893bfc0aa" to="afc38044061c4d399a3c16cc5a5bbceb" to-iid="2b44c458b1ef48bab99c606acbe2c15c" />
+              </item>
+              <item id="e4bc33e1b8624523b83ee6c32bb69ca5" iid="93d46476b5214619aa66fa24cc9e38c3" creation-date="12/16/2023 21:39:32" order-index="31" type="entity">
+                <layout ax="1152" ay="432" awidth="334" aheight="230" x="1152" y="432" width="334" height="230" />
+                <classifier />
+                <class />
+              </item>
+            </layer>
+          </diagram>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p265ade75990d4414a43a7e034f5384c6_237705138" name="Packages" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author>milagalko milagalko</author>
+          </authors>
+          <description />
+          <creation-date>12/16/2023 21:39:32</creation-date>
+          <change-date>12/16/2023 21:39:32</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values>
+          <tagged-value id="tv7ce8d12708c149458420a53d9a05a30f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+        </tagged-values>
+        <abstract-items />
+        <layer id="93d32f01a3954d3ab6b578a207935ff1" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b96fbb104b194713acaf0f478af7f343" iid="1d388c74d66b469ea3d891459122b67c" creation-date="12/16/2023 21:39:32" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="84" aheight="56" x="0" y="0" width="84" height="56" expanded="-20,0,84,56" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
